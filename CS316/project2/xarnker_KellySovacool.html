@@ -1,0 +1,738 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>Xarnker</TITLE>
+
+	<SCRIPT LANGUAGE="JavaScript">
+/* 
+CS316 program 2
+Initial Author: Paul Piwowarski 2014/09
+Modifications: Paul Linton 2016/09
+Modifications: Paul Linton 2017/10
+Student Modifications: Kelly Sovacool 2017/10
+
+Source: card images from clker.com
+*/
+//************* GLOBAL VARIABLES *************************
+var DECK_SIZE = 40; // size of deck
+var HAND_SIZE = 3;  // size of hand
+var NOTACARD = 0;
+var shuffled_deck = new Array(DECK_SIZE); // shuffled deck
+var unshuffled_deck = new Array(DECK_SIZE); // starting deck in order
+var computer_hand = new Array(HAND_SIZE);
+var player_hand  = new Array(HAND_SIZE);
+var discarded  = NOTACARD;
+var deck_location; // index into card array during play
+var CLUBS 		= 1; // 1-10
+var SPADES 		= 2; // 11-20
+var HEARTS 		= 3; // 21-30
+var DIAMONDS 	= 4; // 31-40
+var VALUE 		= 1;
+var SUIT 		= 2;
+var hiddencard  = "<img src = '/~paul/cards/cardback.png' />";
+// Put other global variables here ***********************
+var player_score = 0;
+var computer_score = 0;
+var player_wins = 0;
+var computer_wins = 0;
+var hand_count = 0;  // real-world "hand" = Paul's "game"
+var turn_count = 0;  // real-world "turn" = Paul's "hand"
+var prev_selected_card;
+var new_card_id; // deck or discard pile
+var VALUE= 'value';
+var SUIT = 'suit';
+
+function start_game() {
+    // ask for their name...
+    document.getElementById("thePlayer").innerHTML = prompt("What is your name?", "");
+    shuffle();
+    deal();
+    new_turn();
+}
+
+function new_turn() {
+	console.log("new turn");
+    turn_count++;
+    document.getElementById("turn").innerHTML = String(turn_count);
+    enable_new_card();
+}
+
+function enable_new_card() {
+	console.log("enable new card");
+    theDeck = document.getElementById("deck");
+    thePile = document.getElementById("discard");
+    theDeck.onclick = enable_discard_selection;
+    thePile.onclick = enable_discard_selection;
+    document.getElementById("message").innerHTML = "Select a new card.";
+}
+
+function disable_new_card() {
+	console.log("disable new card");
+    theDeck = document.getElementById("deck");
+    thePile = document.getElementById("discard");
+    theDeck.onclick = ignore_click;
+    thePile.onclick = ignore_click;
+}
+
+function ignore_click(what) {
+    console.log("Something clicked "+what+", ignored!");
+}
+
+function enable_discard_selection() {
+	console.log("Hey, "+this.id+" was clicked!");
+    prev_selected_card = document.getElementById(this.id);
+    new_card_id = this.id;
+    prev_selected_card.style.borderColor = "green";
+	prev_selected_card.style.borderWidth = "5px";
+	if (new_card_id === "deck") {document.getElementById("deck").innerHTML = "<img src = '/~paul/cards/"+shuffled_deck[deck_location]+".png' />";}
+    disable_new_card();
+    prev_selected_card.onclick = highlight_selected_card;
+    for (var i = 1; i <= 3; i++) {
+        document.getElementById("pc"+i).onclick = highlight_selected_card;
+    }
+    document.getElementById("message").innerHTML = "Select a card to discard.";
+}
+
+function highlight_selected_card() {
+    console.log("Highlighting "+this.id);
+    prev_selected_card.style.borderColor = "black";
+	prev_selected_card.style.borderWidth = "1px";
+    prev_selected_card = document.getElementById(this.id);
+    prev_selected_card.style.borderColor = "green";
+	prev_selected_card.style.borderWidth = "5px";
+    document.getElementById("discard_button").style.visibility = 'visible';
+    document.getElementById("discard_button").onclick = complete_turn;
+    document.getElementById("message").innerHTML = "Press the discard button when you're ready.";
+}
+
+function complete_turn() {
+	console.log("completing turn");
+    prev_selected_card.style.borderColor = "black";
+	prev_selected_card.style.borderWidth = "1px";
+    document.getElementById("discard_button").onclick = ignore_click; // disable clicks
+    document.getElementById("discard_button").style.visibility = 'hidden';
+    prev_selected_card.onclick = ignore_click;
+    for (var i = 1; i <= 3; i++) {
+        document.getElementById("pc"+i).onclick = ignore_click;
+    }
+    discard();
+	document.getElementById("deck").innerHTML = hiddencard;
+	document.getElementById("discard").innerHTML = "<img src = '/~paul/cards/"+discarded+".png' />";
+    update_graphics();
+    player_score += calculate_score(player_hand);
+    computer_turn();
+    update_graphics();
+    computer_score += calculate_score(computer_hand);
+    display_score();
+    if (hand_count === 5 && turn_count === 3) {  // decide to start new turn, new hand, or end game
+        end_game();
+    }
+    else if (turn_count === 3) {
+        new_hand();
+    }
+    else { // turn_count < 3
+        new_turn();
+    }
+}
+
+function discard() {
+	console.log("discarding");
+    if (prev_selected_card.id === 'discard') {  // no change needed
+    }
+    else if (prev_selected_card.id === "deck") {  // from deck to pile
+        discarded = shuffled_deck[deck_location];
+        deck_location++;
+    }
+    else { // discard from player hand
+        var index;
+        if (prev_selected_card.id === "pc1") {
+            index = 0;
+        }
+        else if (prev_selected_card.id === "pc2") {
+            index = 1;
+        }
+        else if (prev_selected_card.id === "pc3") {
+            index = 2;
+        }
+        var to_discard = player_hand[index];
+        if (new_card_id === "discard") { // update player hand
+            player_hand[index] = discarded;
+        }
+        else if (new_card_id === "deck") {
+            player_hand[index] = shuffled_deck[deck_location];
+            deck_location++;
+        }
+        discarded = to_discard;
+    }
+}
+
+function new_hand() {
+	console.log("new hand");
+    hand_count++;
+    if (computer_score > player_score) {
+        computer_wins++;
+        document.getElementById("message").innerHTML = "You lost that hand.";
+    }
+    else {
+        player_wins++;
+        document.getElementById("message").innerHTML = "You won that hand!";
+    }
+    document.getElementById("hands_won_over_total").innerHTML = String(player_wins) + "/" + String(hand_count);
+    computer_score = 0;
+    player_score = 0;
+    turn_count = 0;
+    shuffle();
+    deal();
+    new_turn();
+}
+
+function computer_turn() {
+	console.log("computer turn. death by conditional statements.");
+    // Holy conditionals, Batman!
+    // This is almost as bad as the first program I ever wrote.
+    var new_card;
+    var pile_suit = calculate_card(discarded, SUIT);
+    var pile_value = calculate_card(discarded, VALUE);
+    var deck_suit = calculate_card(shuffled_deck[deck_location], SUIT);
+    var deck_value = calculate_card(shuffled_deck[deck_location], VALUE);
+    var suit1 = calculate_card(computer_hand[0], SUIT);
+    var suit2 = calculate_card(computer_hand[1], SUIT);
+    var suit3 = calculate_card(computer_hand[2], SUIT);
+    var new_value;
+    var to_discard;
+
+    if (suit1 === suit2 === suit3) { // three of a kind
+        var hand_suit = suit1;
+        if (pile_suit === hand_suit || deck_suit === hand_suit) {
+            // decide which card to pick up
+            if (pile_suit === deck_suit) {
+                if (calculate_card(discarded, VALUE) > calculate_card(shuffled_deck[deck_location], VALUE)) {
+                    new_value = pile_value;
+                }
+                else {
+                    new_value = deck_value;
+                    deck_location++;
+                }
+            }
+            else if (pile_suit === hand_suit) {
+                new_value = pile_value;
+                new_card = discarded;
+            }
+            else if (deck_suit === hand_suit) {
+                new_value = deck_value;
+                new_card = shuffled_deck[deck_location];
+                deck_location++;
+            }
+
+            // this won't optimize the score, but the instructions don't indicate that it has to.
+            if (new_value > calculate_card(computer_hand[0], VALUE)) {
+                discarded = computer_hand[0];
+                computer_hand[0] = new_card;
+            }
+            else if (new_value > calculate_card(computer_hand[1], VALUE)) {
+                discarded = computer_hand[1];
+                computer_hand[1] = new_card;
+            }
+            else if (new_value > calculate_card(computer_hand[1], VALUE)) {
+                discarded = computer_hand[2];
+                computer_hand[2] = new_card;
+            }
+            else {
+                discarded = new_card;
+            }
+        }
+        else {
+            discarded = shuffled_deck[deck_location];
+            deck_location++;
+        }
+    }
+    else if (have_two_of_same_thing(computer_hand, SUIT)) { // two of same suit
+        var oddball_array1 = oddball_thing(computer_hand, SUIT);
+        var oddball_index1 = oddball_array1[0];
+        var pair_suit = calculate_card(computer_hand[oddball_array1[1]], SUIT);
+        if (deck_suit === pair_suit || pile_suit === pair_suit) {
+            if (deck_suit === pair_suit) {
+                discarded = computer_hand[oddball_index1];
+                computer_hand[oddball_index1] = shuffled_deck[deck_location];
+                deck_location ++;
+            }
+            else {
+                to_discard = computer_hand[oddball_index1];
+                computer_hand[oddball_index1] = discarded;
+                discarded = to_discard;
+            }
+        }
+        else {
+            discarded = shuffled_deck[deck_location];
+            deck_location++;
+        }
+    }
+    else if (have_two_of_same_thing(computer_hand, VALUE)) { // two of same value
+        var oddball_array2 = oddball_thing(computer_hand, VALUE);
+        var oddball_index2 = oddball_array2[0];
+        var pair_value = calculate_card(computer_hand[oddball_array2[2]], VALUE);
+        if (deck_value === pair_value || pile_value === pair_value) {
+            if (deck_value === pair_value) {
+                discarded = computer_hand[oddball_index2];
+                computer_hand[oddball_index2] = shuffled_deck[deck_location];
+                deck_location++;
+            }
+            else {
+                to_discard = computer_hand[oddball_index2];
+                computer_hand[oddball_index2] = discarded;
+                discarded = to_discard;
+            }
+        }
+        else {
+            discarded = shuffled_deck[deck_location];
+            deck_location++;
+        }
+    }
+    else if (almost_have_123(computer_hand)) {  // I wish I had enough time to learn JavaScript and make this object-oriented
+        var not123_array = not123(computer_hand); // this is terrible design
+        var not123_index = not123_array[0];
+        var missing_value = not123_array[1];
+        if (deck_value === missing_value) {
+            discarded = computer_hand[not123_index];
+            computer_hand[not123_index] = shuffled_deck[deck_location];
+        }
+        else if (pile_value === missing_value) {
+            to_discard = computer_hand[not123_index];
+            computer_hand[not123_index] = discarded;
+            discarded = to_discard;
+        }
+        else {
+            discarded = shuffled_deck[deck_location];
+            deck_location++;
+        }
+    }
+    else if (almost_pi(computer_hand)) {
+        var not_pi_array = not_pi(computer_hand);
+        var not_pi_index = not_pi_array[0];
+        var missing_pi = not_pi_array[1];
+        if (deck_value === missing_pi) {
+            discarded = computer_hand[not_pi_index];
+            computer_hand[not_pi_index] = shuffled_deck[deck_location];
+        }
+        else if (pile_value === missing_pi) {
+            to_discard = computer_hand[not_pi_index];
+            computer_hand[not_pi_index] = discarded;
+            discarded = to_discard;
+        }
+        else {
+            discarded = shuffled_deck[deck_location];
+            deck_location++;
+        }
+    }
+    else { // 3 cards of different suits & values
+        if ((8 <= pile_value <= 10) && (pile_suit === suit1 || pile_suit === suit2 || pile_suit === suit3)) {
+            var discard_index1 = match_suit(computer_hand, pile_suit);
+            to_discard = computer_hand[discard_index1];
+            computer_hand[discard_index1] = discarded;
+            discarded = to_discard;
+        }
+        else {
+            if (deck_suit === suit1 || deck_suit === suit2 || deck_suit === suit3) {
+                var discard_index2 = match_suit(computer_hand, deck_suit);
+                discarded = computer_hand[discard_index2];
+                computer_hand[discard_index2] = shuffled_deck[deck_location];
+                deck_location++;
+            }
+            else {
+                var lowest_array2 = lowest(computer_hand);
+                var lowest_index2 = lowest_array2[0];
+                var lowest_value2 = lowest_array2[1];
+                if (deck_value > lowest_value2) {
+                    discarded = computer_hand[lowest_index2];
+                    computer_hand[lowest_index2] = shuffled_deck[deck_location];
+                    deck_location++;
+                }
+                else {
+                    discarded = shuffled_deck[deck_location];
+                    deck_location++;
+                }
+            }
+        }
+    }
+}
+
+function have_two_of_same_thing(hand, suit_or_value) {
+    var have_two = false;
+    var thing1 = calculate_card(hand[0], suit_or_value);
+    var thing2 = calculate_card(hand[1], suit_or_value);
+    var thing3 = calculate_card(hand[2], suit_or_value);
+    if (thing1 === thing2 || thing1 === thing3 || thing2 === thing3) {have_two = true;}
+    return have_two;
+}
+
+function oddball_thing(hand, suit_or_value) {  // I love Python even more than before.
+    var oddball_index;
+    var pair_index;
+    var thing1 = calculate_card(hand[0], suit_or_value);
+    var thing2 = calculate_card(hand[1], suit_or_value);
+    var thing3 = calculate_card(hand[2], suit_or_value);
+    if (thing1 === thing2) {oddball_index = 3; pair_index = 1;}
+    else if (thing1 === thing3) {oddball_index = 2; pair_index = 1;}
+    else if (thing2 === thing3) {oddball_index = 1; pair_index = 2;}
+    var return_array = new Array(2);
+    return_array[0] = oddball_index;
+    return_array[1] = pair_index;
+    return return_array
+}
+
+function almost_have_123(hand) {
+    var have_it = false;
+    //var set = new Set([1, 2, 3]); // apparently JS doesn't have Set?!?! getting error "unresolved type Set"
+    for (var i=0; i<HAND_SIZE; i++) {
+        for (var j=0; j<HAND_SIZE; j++) {
+            if ((i !== j) && (hand[i] !== hand[j]) && (1 <= hand[i] <= 3) && (1 <= hand[j] <= 3)) {have_it = true; break;}
+        }
+    }
+    return have_it;
+}
+
+function not123(hand) {  // this is an awful design, but I don't have time to learn JavaScript
+    var index;
+    var have = new Array(2);
+    var j = 0;
+    for (var i=0; i<HAND_SIZE; i++) {
+        if (hand[i] < 1 && hand[i] > 3) {index = i;}
+        else {have[j] = hand[i]; j++;}
+    }
+    var missing;
+    for (var k=1; k<=3; k++) {
+        var k_is_missing = true;
+        for (var l=0; l<have.length; l++) {
+            if (k === have[l]) {k_is_missing = false; break;}
+        }
+        if (k_is_missing) {missing = k; break;}
+    }
+    return new Array([index, missing]);
+}
+
+function almost_pi(hand) { // I realize this could've been consolidated with not123(), but not I'm too tired to change it
+    var have_it = false;
+    for (var i=0; i<HAND_SIZE; i++) {
+        for (var j=0; j<HAND_SIZE; j++) {
+            if ((i !== j) && (hand[i] !== hand[j])) {
+                if ((hand[i] === 3 || hand[i] === 1 || hand[i] === 4) && (hand[j] === 3 || hand[j] === 1 || hand[j] === 4)) {have_it = true; break;}}
+        }
+    }
+    return have_it;
+}
+
+function not_pi(hand) {
+    var pi = new Array([3, 1, 4]);
+    var index;
+    var have = new Array(2);
+    var j = 0;
+    for (var i=0; i<HAND_SIZE; i++) {
+        if ((hand[i] !== 3) && (hand[i] !== 1) && (hand[i] !== 4)) {index = i;}
+        else {
+			have[j] = hand[i]; j++;
+		}
+    }
+    var missing;
+    for (var k=0; k<=2; k++) {
+        var digit = pi[k]
+        var k_is_missing = true;
+        for (var l=0; l<have.length; l++) {
+            if (digit === have[l]) {k_is_missing = false; break;}
+        }
+        if (k_is_missing) {missing = k; break;}
+    }
+    return new Array([index, missing]);
+}
+
+function match_suit(hand, new_suit) {
+    var keep_index;
+    var discard_index;
+    var discard_value;
+    for (var i=0; i<HAND_SIZE; i++) {
+        if (new_suit === calculate_card(hand[i], SUIT)) {
+            keep_index = i;
+        }
+        else {
+            discard_index = i;
+            discard_value = calculate_card(hand[i], VALUE);
+        }
+    }
+    for (var j=0; j<HAND_SIZE; j++) {
+        if (j !== keep_index) {
+            var current_value = calculate_card(hand[j], VALUE);
+            if (current_value < discard_value) {discard_value = current_value; discard_index = j;}
+        }
+    }
+    return discard_index;
+}
+
+function lowest(hand) {
+    var lowest_value = calculate_card(hand[0], VALUE);
+    var lowest_index = 0;
+    var current_value;
+    for (var i=1; i<HAND_SIZE; i++) {
+        current_value = calculate_card(hand[i], VALUE);
+        if (lowest_value > current_value) {
+            lowest_value = current_value;
+            lowest_index = i;
+        }
+    }
+    return new Array([lowest_index, lowest_value]);
+}
+function highest(hand) {
+    var highest_value = calculate_card(hand[0], VALUE);
+    var highest_index = 0;
+    var current_value;
+    for (var i=1; i<HAND_SIZE; i++) {
+        current_value = calculate_card(hand[i], VALUE);
+        if (highest_value < current_value) {
+            highest_value = current_value;
+            highest_index = i;
+        }
+    }
+	return highest_value;
+}
+
+function end_game() {
+	console.log("end game");
+    var message;
+    if (computer_wins > player_wins) {
+        message = "You lost. Try again!";
+    }
+    else {
+        message = "You won! Wanna play again?";
+    }
+    document.getElementById("message").innerHTML = message;
+}
+
+function calculate_score(hand) { // TODO: debug no points being awarded even though 3 of same suit present
+	console.log('calculate score of hand');
+    var score = 0;
+    var forty = new Array(3);
+    forty[0] = 1;
+    forty[1] = 2;
+    forty[2] = 3;
+    var pi = new Array(3);
+    pi[0] = 1;
+    pi[1] = 3;
+    pi[2] = 4;
+    var sorted = hand.sort();
+    var message;
+    // 3 of same value
+	card1val = calculate_card(hand[0], VALUE);
+	card2val = calculate_card(hand[1], VALUE);
+	card3val = calculate_card(hand[2], VALUE);
+	card1suit= calculate_card(hand[0], SUIT);
+	card2suit= calculate_card(hand[1], SUIT);
+	card3suit= calculate_card(hand[2], SUIT);
+    if (card1val === card1val === card3val) {
+        score = 50;
+        message = "3 of a kind!";
+    } // values are 1, 2, 3
+    else if (forty === sorted) {
+        score = 40;
+        message = "1, 2, 3!";
+    } // values are 3, 1, 4
+    else if (pi === sorted) {
+        score = 31;
+        message = "pi!";
+    } // sum of values, same suit only
+    else if (card1suit === card2suit === card3suit) {
+        for (var i=0; i<=2; i++) { score += calculate_card(hand[i], VALUE); }
+        message = "same suit!";
+    }
+    else {
+        message = "no points awarded";
+    }
+    console.log(message);
+    return score;
+}
+
+function display_score() {
+	console.log("display score");
+    document.getElementById("computerscore").innerHTML = String(computer_score);
+    document.getElementById("playerscore").innerHTML = String(player_score);
+}
+
+function update_graphics() {
+	console.log("update graphics");
+    var mycard1 = "<img src = '/~paul/cards/"+player_hand[0]+".png' />";
+    var mycard2 = "<img src = '/~paul/cards/"+player_hand[1]+".png' />";
+    var mycard3 = "<img src = '/~paul/cards/"+player_hand[2]+".png' />";
+    document.getElementById("pc1").innerHTML = mycard1;
+    document.getElementById("pc2").innerHTML = mycard2;
+    document.getElementById("pc3").innerHTML = mycard3;
+    showpile = "<img src = '/~paul/cards/"+discarded+".png' />";
+    document.getElementById("discard").innerHTML = showpile;
+}
+
+function calculate_card(the_card, value_or_suit) {
+    // calculate value of card
+// Preconditions:
+//	Card passed
+//	1 <= card <= DSIZE
+//  valueorsuit
+// Postconditions:
+//	Card value returned
+    var value; // numerical value of card
+    var suit;
+
+    value = the_card % 10;
+    if (value === 0) {
+        value = 10;
+    }
+    suit = parseInt(the_card / 10) + 1;
+
+    if (value_or_suit === SUIT) {
+        return suit;
+    }
+    else {
+        return value;
+    }
+}
+
+function shuffle() {
+	console.log("shuffling");
+    // shuffle
+// This is one way to create a shuffled deck
+// reshuffle the cards, put in card array
+// Preconditions:
+//	New Deal button pressed
+// Postconditions:
+//	Card array filled and shuffled
+    // cardstart is unshuffled 1,2,3....
+    // card 1 is ace of clubs (1.png)
+    // card 2 is two of clubs (2.png)
+    // card 10 is 10 of clubs (10.png)
+    // card 11 is ace of spades (11.png)
+    // ....
+    // card 21 is ace of hearts (21.png)
+    // ....
+    // card 31 is ace of diamonds (31.png)
+    // ....
+    // card 40 is 10 of diamonds (40.png)
+
+    for (var i = 0; i < DECK_SIZE;i++) {
+        unshuffled_deck[i] = i+1;
+    }
+    // select card randomly from cardstart and put in card
+    var randcard; // randomly selected card
+    for (var j = 0; j < DECK_SIZE; j++) {
+        randcard = Math.round(Math.random() * (DECK_SIZE - j - 1)); // choose card
+        shuffled_deck[j] = unshuffled_deck[randcard]; // store random card
+        unshuffled_deck.splice(randcard, 1); // pack array
+    }
+    deck_location = 0;              // index into card array
+}
+
+function deal() {
+	console.log("dealing");
+	// deal cards and display data
+    // deal button has been pressed
+	// draw three cards for each player
+	computer_hand[0] = shuffled_deck[deck_location++];  // let's be fair now...
+    player_hand[0]  = shuffled_deck[deck_location++];
+	computer_hand[1] = shuffled_deck[deck_location++];
+    player_hand[1]  = shuffled_deck[deck_location++];
+	computer_hand[2] = shuffled_deck[deck_location++];
+	player_hand[2]  = shuffled_deck[deck_location++];
+
+	var dlcard1 = "<img src = '/~paul/cards/"+computer_hand[0]+".png' />";
+	var dlcard2 = "<img src = '/~paul/cards/"+computer_hand[1]+".png' />";
+	var dlcard3 = "<img src = '/~paul/cards/"+computer_hand[2]+".png' />";
+//  Do not actually display cards until hand is over!
+//	document.getElementById("cc1").innerHTML = dlcard1;
+//	document.getElementById("cc2").innerHTML = dlcard2;
+//	document.getElementById("cc3").innerHTML = dlcard3;
+	document.getElementById("cc1").innerHTML = hiddencard; // computer cards
+	document.getElementById("cc2").innerHTML = hiddencard;
+	document.getElementById("cc3").innerHTML = hiddencard;
+
+	var mycard1 = "<img src = '/~paul/cards/"+player_hand[0]+".png' />";
+	var mycard2 = "<img src = '/~paul/cards/"+player_hand[1]+".png' />";
+	var mycard3 = "<img src = '/~paul/cards/"+player_hand[2]+".png' />";
+	document.getElementById("pc1").innerHTML = mycard1;  // player cards
+	document.getElementById("pc2").innerHTML = mycard2;
+	document.getElementById("pc3").innerHTML = mycard3;
+
+	discarded = shuffled_deck[deck_location++];
+	deck_location++; // fresh card on top
+	showpile = "<img src = '/~paul/cards/"+discarded+".png' />";
+	document.getElementById("discard").innerHTML = showpile;
+
+	display_score();
+}
+
+</SCRIPT>
+
+</HEAD>
+<BODY >
+<CENTER>
+<TABLE>
+	<TH STYLE="border: none; padding: 0in">
+		<P><INPUT TYPE=BUTTON VALUE="New Game" 
+			STYLE="width: 1.20in; height: 0.4in" ONCLICK="start_game();"> </P>
+	</TH>
+<TABLE>
+	<TR>
+		<TH COLSPAN=2 id="theComputer"
+			style="border: 2px blue">Computer</TH>
+		<TH id="computerscore"></TH>
+		<TH>       </TH>
+		<TH COLSPAN=2 id="thePlayer"
+			style="border: 1px solid green">PlayerName</TH>
+		<TH id="playerscore"></TH>
+	</TR>
+	<TR> <!-- Cards in play -->
+		<TD id="cc1"> <img src = '/~paul/cards/cardback.png' /></TD>
+		<TD id="cc2"> <img src = '/~paul/cards/cardback.png' /></TD>
+		<TD id="cc3"> <img src = '/~paul/cards/cardback.png' /></TD>
+		<TD id="spc"> </TD>
+		<TD id="pc1" style="border: 1px solid"> <img src = '/~paul/cards/cardback.png' /></TD>
+		<TD id="pc2" style="border: 1px solid"> <img src = '/~paul/cards/cardback.png' /></TD>
+		<TD id="pc3" style="border: 1px solid"> <img src = '/~paul/cards/cardback.png' /></TD>
+	</TR>
+	<TR> <!-- deck/discard -->
+		<TD COLSPAN=2>
+			<CENTER>
+			<TABLE>
+				<TR>
+					<TH COLSPAN=2> Turn </TH>
+				</TR>
+				<TR>
+					<TD id="turn" COLSPAN=2> 0 </TD>
+				</TR>
+			</TABLE>
+			</CENTER>
+		</TD>
+		<TD id="deck"  style="border: 1px solid"> <img src = '/~paul/cards/cardback.png' /></TD>
+		<TD> </TD>
+		<TD id="discard"  style="border: 1px solid"> <img src = '/~paul/cards/cardback.png' /></TD>
+		<TD COLSPAN=2>
+			<CENTER>
+			<TABLE>
+				<TR>
+					<TH COLSPAN=2> Hands Won/Total </TH>
+				</TR>
+				<TR>
+					<TD id="hands_won_over_total" COLSPAN=2> 0/0 </TD>
+				</TR>
+			</TABLE>
+			</CENTER>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE>
+	<TR>
+		<TD STYLE="border: none; padding: 0in">
+            <P><INPUT TYPE=BUTTON VALUE="Discard" id="discard_button" STYLE="width: 1.20in; height: 0.4in; visibility: hidden" ONCLICK="ignore_click();"></P>
+		</TD>
+        <TD></TD>
+	</TR>
+</TABLE>
+	<p id="message">Press the New Game button!</p>
+</CENTER>
+
+</BODY>
+</HTML>

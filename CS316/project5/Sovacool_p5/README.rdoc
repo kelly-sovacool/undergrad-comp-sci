@@ -1,0 +1,11 @@
+== README
+
+Author: Kelly Sovacool
+CS316-001
+Program 5 - Ruby on Rails
+
+Implemented parts:
+a) almost. For some reason, "Opponent" is the only search term to show up in the drop-down menu.
+b)
+c) couldn't get bold font-style to work. instead, I set a different header number to make search terms larger.
+d)

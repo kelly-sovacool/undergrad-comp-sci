@@ -1,0 +1,16 @@
++ mydomain.com 789.67.678.67 # testing + (success)
++ apple.com 567.678.67.86 # testing + (success)
++ cs.uky.edu 78i:28s:fs2l:82:238hf # testing + (success)
++ badip.com
+- apple.com # testing - (success)
+-
+? mydomain.com # testing ? (success)
+? 789.67.678.67 # testing ? (ipv4)
+? 78i:28s:fs2l:82:238hf # testing ? (ipv6)
+? apple.com # testing ? (targ not found)
+S Domain # testing sort (domain)
+L # list
+S IP # testing sort (ip)
+L # list
+S ! # testing sort (invalid)
+# testing invalid commands

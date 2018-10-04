@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p><strong>Note:</strong> The geolocation property is not supported in IE8 and earlier versions.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+	x.innerHTML = "We are here!"
+    if (navigator.geolocation) {
+		x.innerHTML = "We are here2!"
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+		x.innerHTML = "We are here3!"
+        x.innerHTML += "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+	x.innerHTML = "We are here4!"
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+</body>
+</html>

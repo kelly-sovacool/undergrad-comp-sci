@@ -1,0 +1,24 @@
+<h1><%= @thetitle %></h1>
+
+Hello!  Welcome to <%= @thetitle %><p>
+
+<%= form_for :gamestat, url: gamestats_path do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.select :title, @titles %>
+    </p>
+             
+    <p>
+    <%= f.label :results %><br>
+    <%= f.select :results, @results_options %>
+    </p>
+
+    <p>
+    <%= f.label :search_term %><br>
+    <%= f.select :search_term, @search_terms %>
+    </p>
+                          
+    <p>
+        <%= f.submit :Search %>
+    </p>
+<% end %>

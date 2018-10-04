@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<title>
+Convert us!
+</title>
+<!-- Grove book:  Web-based application development -->
+<style type="text/css">
+	.flag {color: red}
+</style>     
+<script type="text/javascript">
+	function validate() {
+		var missingData = false;
+		var incorrectNumber = false;
+
+		clearMessages();
+		if (get("numunits").value.length == 0) {
+			get("numFlag").innerHTML = "*";
+			missingData = true;
+		} 
+
+		if (get("src").value.length == 0) {
+			get("srcFlag").innerHTML = "*";
+			missingData = true;
+		}   
+
+		if (get("new").value.length == 0) {
+			get("newFlag").innerHTML = "*";
+			missingData = true;
+		}   
+
+		if (get("convfact").value.length == 0) {
+			get("facFlag").innerHTML = "*";
+			missingData = true;
+		}   
+
+		if (missingData) {
+			get("message").innerHTML = "*  Required";
+			alert("Please complete the required"
+				+ " fields\nand resubmit.");
+			return false;
+		}
+		return true;
+	}
+
+	function get(id) {
+		return  document.getElementById(id);
+	}
+
+	function clearMessages() {
+		get("srcFlag").innerHTML = "";
+		get("newFlag").innerHTML = "";
+		get("numFlag").innerHTML = "";
+		get("facFlag").innerHTML = "";
+		get("message").innerHTML = "";
+	}
+</script>
+</head>
+
+<body>
+Hello, welcome to my units converter!
+<p>
+Input a number, a source unit, and a new unit:
+<p>
+<h3>Value to convert:<br></h3>
+<form action="p1.cgi" method="GET" onsubmit="return validate()">
+
+<table cellpadding="3"><tbody>
+<tr> 	
+		<td id="srcFlag" class="flag"></td>
+		<td>Source Units:</td>
+		<td><input type="text" id="src" name="source" /></td>
+</tr>
+
+<tr> 	
+		<td id="newFlag" class="flag"></td>
+		<td>New Units:</td>
+		<td><input type="text" id="new" name="newunit" /></td>
+</tr>
+<tr> 	
+		<td id="numFlag" class="flag"></td>
+		<td>Value:</td>
+		<td><input type="text" id="numunits" name="anumber" /></td>
+</tr>
+<tr> 	
+		<td id="facFlag" class="flag"></td>
+		<td>Conv Factor:</td>
+		<td><input type="text" id="convfact" name="bnumber" /></td>
+</tr>
+
+
+<tr> 	
+		<td colspan="3" id="message" class="flag"></td>
+</tr>
+</tbody></table>
+<input type="submit" value="Please convert." />
+<input type="reset" onclick="clearMessages()" />
+</form>
+</body>
+</html>

@@ -1,0 +1,129 @@
+# main function
+     # Display 'Domain Name System Simulator'
+     # Initialize the domain name and IP lists
+     # Initialize counter for total commands processed
+     # Initialize counter for invalid commands
+     # Initialize valid file flag to False
+     # While the file name is not valid:
+          # try:
+               # Get the file name of the commands from the user and open it
+               # Assign valid file flag to True (only executes if file opens without error)
+          # except if the file cannot be found:
+               # Output error message
+          # except if the file is not a text file:
+               # Output error message
+     
+     # For each line in the file:
+          # output 'Command ' and the line
+          # split the line by whitespaces
+          # if the first character is a '+' (adding domain name & IP pair):
+               # try:
+                    # get the domain and IP strings
+                    # call the put_in function
+                    # output whether it was successful or not
+               # except if domain/ip pair not specified (causes index error):
+                    # output error message, 'domain/ip pair not specified'
+               # add 1 to the total commands counter
+               
+          # else if the first character is a '-' (removing a domain name & IP pair):
+               # try:
+                    # get the domain name string
+                    # call the take_out function
+                    # if take_out returns True:
+                         # Output that the removal was successful
+                    # else:
+                         # Output that the removal was not successful
+               # except if the domain name string not specified (causes index error):
+                    # output error message, 'domain name not specified'
+               # add 1 to the total commands counter
+               
+          # else if the first character is a '?' (searching the tables):
+               # try:
+                    # get the target string
+                    # call the table_lookup function
+                    # if return of table_lookup function is -1:
+                         # output error message, 'Not found'
+                    # else: (table_lookup was successful)
+                         # output domain name and IP pair
+               # except if the target string not specified (causes index error)
+                    # output error message: 'No target string specified'
+               # add 1 to the total commands counter
+               
+          # else if the first character is an 'L' (displaying tables in parallel array style):
+               # call the display_lists function
+               # add 1 to the total commands counter
+               
+          # else if the first character is an 'S' (sorting the tables):
+               # try:
+                    # get the sort order string
+                    # call the selection_sort function
+                    # output whether the data were sorted by domain or IP
+               # except if sort order string not specified (causes index error):
+                    # output error message, 'No sort order specifed')
+               # add 1 to the total commands counter
+          # else:
+               # output an error message, 'Invalid commmand'
+               # add 1 to the invalid commands counter
+     # Output the total number of commands processed
+     # Output the number of invalid commands
+     # Close the file
+
+# function: table_lookup
+     # Design:
+     # split the target string by periods
+     # split the target string by colons
+     # if the target string characters up to the first period are all digits (IPv4)
+     # or splitting the target string by colons yields more than three elements (IPv6)
+     # the target string is an IP number:
+          # try:
+               # assign the result to the index of the IP number
+          # except if the ip or domain is not in the list:
+               # assign result to -1
+     # else (target string is a domain):
+          # try:
+               # assign the result to the index of the domain name
+          # except if the ip or domain is not in the list:
+               # assign result to -1
+     # return result
+
+# function: take_out
+     # Design:
+     # try:
+          # find the index of the domain name
+          # remove the domain name from the domain name list
+          # remove the IP address at the same index from the IP list
+          # assign result to True
+     # except if the domain is not in the list:
+          # assign result to False
+     # return the result
+
+# function: put_in
+     # Design:
+     # if the domain name is in the domain name list:
+          # find the index of the domain name
+          # change the IP at the same index in the IP table to the IP given
+     # else:
+          # append the domain name to the domain name table
+          # append the IP to the IP table
+
+# function: selection_sort
+     # Design:
+     # make a copy of the unsorted domain_list
+     # make a copy of the unsorted ip list
+     # if user sorts by domain:
+          # sort the domain_list in ascending order
+          # for indices in the domain name list:
+               # find the position of the element in the unsorted list
+               # move the corresponding ip to its new index in the sorted list
+     # else if user sorts by IP:
+          # sort the ip_list in ascending order
+          # for indices in the IP list:
+               # find the position of the element in the unsorted list
+               # assign the corresponding domain to its new index in the sorted lsit
+
+# function: display_lists
+     # Design:
+     # Output the 'Domain Name' and 'IP' headers
+     # for each element in the domain name list:
+          # print the domain and its corresponding ip on the same line
+

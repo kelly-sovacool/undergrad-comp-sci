@@ -1,0 +1,59 @@
+<!DOCTYPE ...>
+<html ...>
+<head>
+<title>Example 6-3   JavaScript</title>
+<style type="text/css">
+  .flag {color: red}
+</style>     
+<script type="text/javascript">
+ function validate() {
+   var missingData = false;
+   clearMessages();
+   if (get("name").value.length == 0) {
+     get("nameFlag").innerHTML = "*";
+     missingData = true;
+   }   
+   if (get("eadr").value.length == 0) {
+     get("eadrFlag").innerHTML = "*";
+    missingData = true;
+   }   
+   if (missingData) {
+     get("message").innerHTML = "*  Required";
+     alert("Please complete the required"
+       + " fields\nand resubmit.");
+     return false;
+   }
+   return true;
+ }
+ function get(id) {
+   return  document.getElementById(id);
+ }
+ function clearMessages() {
+   get("nameFlag").innerHTML = "";
+   get("eadrFlag").innerHTML = "";
+   get("message").innerHTML = "";
+ }
+</script>
+</head>
+<body>
+<h3>Add Player:</h3>
+<form id="form1" action="addplayer"
+  onsubmit="return validate()" >
+<table cellpadding="3"><tbody>
+ <tr> <td id="nameFlag" class="flag"></td>
+  <td>Name:</td>  
+  <td><input type="text" id="name" /></td>
+ </tr>
+ <tr> <td id="eadrFlag" class="flag"></td>
+  <td>Email:</td>  
+  <td><input type="text" id="eadr" /></td>
+ </tr>
+ <tr><td colspan="3" id="message"
+   class="flag"></td></tr>
+</tbody></table>
+<p><input type="submit" value="Add" /> 
+  <input type="reset" onclick="clearMessages()"/>
+</p>
+</form>
+</body>
+</html>

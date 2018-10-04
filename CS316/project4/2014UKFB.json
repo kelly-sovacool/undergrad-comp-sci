@@ -1,0 +1,11 @@
+{
+		"comments": [
+				"University of Kentucky",
+				"Men's College Football",
+				"2014",
+				"completely made-up results"],
+		"games": [
+				{"Opponent": "The Titans", "Date": "09/02/2014", "WinorLose": "W", "Touch Downs": 7},
+				{"Opponent": "Louisville", "Date": "09/15/2014", "WinorLose": "W", "Touch Downs": 4},
+				{"Opponent": "Vanderbilt", "Date": "10/30/2014", "WinorLose": "L", "Touch Downs": 1}]
+}

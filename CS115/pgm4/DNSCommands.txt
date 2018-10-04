@@ -1,0 +1,12 @@
++ apple.com   17.142.160.59
++ toyota.com     72.246.45.58
++ netflix.com 54.243.253.96
+L
++ cs.uky.edu  128.163.146.21
+L
+- netflix.com
++ whitehouse.gov 23.218.197.212
+? apple.com
+S Domain
+L
+! invalid command

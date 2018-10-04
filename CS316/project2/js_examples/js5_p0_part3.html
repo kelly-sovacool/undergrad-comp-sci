@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<title>
+Convert us!
+</title>
+<!-- Grove book:  Web-based application development -->
+<head>
+<style type="text/css">
+	.flag {color: red}
+</style>     
+<script type="text/javascript">
+	function validate() {
+		var missingData = false;
+		var correctUnits = false;
+		var Units = "";
+		var validUnits = [
+			[ 'kilometers', 'meters', 1000],
+			[ 'kilometers', 'miles', .62137119],
+			[ 'kilometers', 'feet', 3280.83989501],
+			[ 'meters', 'kilometers', 0.001],
+			[ 'meters', 'miles', 0.00062137],
+			[ 'meters', 'feet', 3.2808399],
+			[ 'miles', 'kilometers', 1.609344],
+			[ 'miles', 'meters', 1609.344],
+			[ 'miles', 'feet', 5280],
+			[ 'feet', 'kilometers', 0.0003048],
+			[ 'feet', 'meters', 0.3048],
+			[ 'feet', 'miles', 0.00018939],
+			[ 'hours', 'minutes', 60],
+			[ 'hours', 'seconds', 3600],
+			[ 'hours', 'days', 0.04166666666],
+			[ 'minutes', 'hours', .0166666666],
+			[ 'minutes', 'seconds', 60],
+			[ 'minutes', 'days', .0006944444],
+			[ 'seconds', 'hours', .0002777777],
+			[ 'seconds', 'minutes', .0166666666],
+			[ 'seconds', 'days', .0000115740],
+			[ 'days', 'hours', 24],
+			[ 'days', 'minutes', 1440],
+			[ 'days', 'seconds', 86400]
+		];
+
+		if (get("num").value.length == 0) {
+			get("numFlag").innerHTML = "*";
+			missingData = true;
+		} 
+
+		if (get("src").value.length == 0) {
+			get("srcFlag").innerHTML = "*";
+			missingData = true;
+		}
+
+		if (get("new").value.length == 0) {
+			get("newFlag").innerHTML = "*";
+			missingData = true;
+		}
+
+        if (missingData) {
+            get("message").innerHTML = "*  Required";
+            alert("Please complete the required"
+                + " fields\nand resubmit.");
+            return false;
+        }
+
+		for (i = 0; i < validUnits.length; i++) {
+			var source = validUnits[i][0];
+			var tounit = validUnits[i][1];
+			var factor = validUnits[i][2];
+			var answer = 0;
+
+			if (get("src").value == source &&
+				get("new").value == tounit) {
+					correctNewUnits = true;
+					answer = get("num").value * factor;
+					get("message").innerHTML = "Answer is "+answer;
+					return true;
+			}
+		}
+		get("message").innerHTML = "Invalid units";
+		return false;
+	}
+
+	function get(id) {
+		return  document.getElementById(id);
+	}
+
+	function convertIt() {
+		var anumber = get("num").value;
+		var sunits	= get("src").value;
+		var nunits	= get("new").value;
+		var validInput = true;
+
+
+		validInput = validate();
+//		get("message").innerHTML = "Here "+anumber+" S: "+sunits+" N: "+nunits;
+		return validInput;
+	}
+</script>
+</head>
+
+<body>
+Hello, welcome to my units converter!
+<p>
+Input a number, a source unit, and a new unit:
+<p>
+<h3>Value to convert:<br></h3>
+<form action="p0.cgi" method="GET" onsubmit="return validate()">
+
+<table cellpadding="3"><tbody>
+<tr> 	
+		<td id="numFlag" class="flag"></td>
+		<td>Value:</td>
+		<td><input type="text" id="num" name="anumber" /></td>
+</tr>
+
+<tr> 	
+		<td id="srcFlag" class="flag"></td>
+		<td>Source Units:</td>
+		<td><input type="text" id="src" name="source" /></td>
+</tr>
+
+<tr> 	
+		<td id="newFlag" class="flag"></td>
+		<td>New Units:</td>
+		<td><input type="text" id="new" name="source" /></td>
+</tr>
+
+<tr> 	
+		<td colspan="3" id="message" class="flag"></td>
+</tr>
+</tbody></table>
+<input type="submit" value="Server convert" />
+<input type="button" value="Browser convert" onclick="convertIt()" />
+</form>
+</body>
+</html>

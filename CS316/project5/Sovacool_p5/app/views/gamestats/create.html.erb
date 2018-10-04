@@ -1,0 +1,50 @@
+<h1>Sports Report</h1>
+
+<%
+  form_title = params[:gamestat][:title]
+  form_result = params[:gamestat][:results]
+  form_search_term = params[:gamestat][:search_term]
+  result_filename = "public/#{form_result}"
+%>
+Sport Info
+<%
+  require "json"
+  if File.exist?(result_filename) and $filenames_to_sports[form_result] == form_title
+  file = open(result_filename)
+  json = JSON.parse(file.read)
+  json["comments"].each do |comment|
+%><p><%= comment %></p>
+<% end %>
+<p>search term: <%= form_search_term %></p>
+<h1> Games: </h1>
+<%4
+  wins = 0
+  losses = 0
+  json["games"].each do |game|
+    game.each do |key, value|
+      if key == form_search_term
+        @h = "2"
+	  else
+        @h = "3"
+      end
+	  %><h<%= @h %>><%= key %>: <%= value %></h<%= @h %>><%
+      if key == "WinorLose"
+        if value == "W"
+          wins += 1
+        else
+          losses += 1
+        end
+      end
+    end
+  end
+  win_percentage = wins * 100 / ( wins + losses )
+%>
+<p> Wins: <%= wins %></p>
+<p> Losses: <%= losses %></p>
+<p> Win Percentage: <%= win_percentage %>%</p>
+
+<% else %>
+		<p>results file does not exist for <%= form_title %>.</p>
+<% end %>
+
+<%= link_to 'Perform new search', gamestats_search_path %>

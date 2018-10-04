@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<title>
+Convert us!
+</title>
+<!-- Grove book:  Web-based application development -->
+<style type="text/css">
+	.flag {color: red}
+</style>     
+<script type="text/javascript">
+	function validate() {
+		var missingData = false;
+		var correctSrcUnits = false;
+		var correctNewUnits = false;
+		var Units = "";
+		var validUnits = ["parsec","lightyear","kilometer","xlarn",
+				"galacticyear","terrestrialyear","xarnyear",
+				"terrestrialminute"];
+
+		for (i = 0; i < validUnits.length; i++) {
+			Units = Units + validUnits[i];
+			if (i < validUnits.length-1) {
+				Units = Units + ",";
+			}
+		}
+
+		clearMessages();
+		if (get("num").value.length == 0) {
+			get("numFlag").innerHTML = "*";
+			missingData = true;
+		} 
+		if (get("fac").value.length == 0) {
+			get("facFlag").innerHTML = "*";
+			missingData = true;
+		} 
+
+		if (get("src").value.length == 0) {
+			get("srcFlag").innerHTML = "*";
+			missingData = true;
+		} else {
+			for (i = 0; i < validUnits.length; i++) {
+				if (get("src").value == validUnits[i]) {
+					correctSrcUnits = true;
+				}
+			}
+		}
+
+		if (get("new").value.length == 0) {
+			get("newFlag").innerHTML = "*";
+			missingData = true;
+		} else {
+			for (i = 0; i < validUnits.length; i++) {
+				if (get("new").value == validUnits[i]) {
+					correctNewUnits = true;
+				}
+			}
+		}
+
+		if (correctSrcUnits==false) {
+			get("srcFlag").innerHTML = "*";
+			get("message").innerHTML = "*  Invalid unit";
+		}
+
+		if (correctNewUnits==false) {
+			get("newFlag").innerHTML = "*";
+			get("message").innerHTML = "*  Invalid unit";
+		}
+			
+
+		if (!correctSrcUnits || !correctNewUnits) {
+			alert("Please select a unit from: ("
+				+ Units + ").");
+
+			return false;
+		}
+
+        if (missingData) {
+            get("message").innerHTML = "*  Required";
+            alert("Please complete the required"
+                + " fields\nand resubmit.");
+            return false;
+        }
+
+		return true;
+	}
+
+	function get(id) {
+		return  document.getElementById(id);
+	}
+
+	function clearMessages() {
+		get("srcFlag").innerHTML = "";
+		get("newFlag").innerHTML = "";
+		get("numFlag").innerHTML = "";
+		get("facFlag").innerHTML = "";
+		get("message").innerHTML = "";
+	}
+</script>
+</head>
+
+<body>
+Hello, welcome to my units converter!
+<p>
+Input a number, a source unit, and a new unit:
+<p>
+<h3>Value to convert:<br></h3>
+<form action="try_p1.cgi" method="GET" onsubmit="return validate()">
+
+<table cellpadding="3"><tbody>
+<tr> 	
+		<td id="srcFlag" class="flag"></td>
+		<td>Source Units:</td>
+		<td><input type="text" id="src" name="source" /></td>
+</tr>
+
+<tr> 	
+		<td id="newFlag" class="flag"></td>
+		<td>New Units:</td>
+		<td><input type="text" id="new" name="new" /></td>
+</tr>
+<tr> 	
+		<td id="numFlag" class="flag"></td>
+		<td>Value:</td>
+		<td><input type="text" id="num" name="anumber" /></td>
+</tr>
+<tr> 	
+		<td id="facFlag" class="flag"></td>
+		<td>Factor:</td>
+		<td><input type="text" id="fac" name="bnumber" /></td>
+</tr>
+
+
+
+<tr> 	
+		<td colspan="3" id="message" class="flag"></td>
+</tr>
+</tbody></table>
+<input type="submit" value="Please convert." />
+<input type="reset" onclick="clearMessages()" />
+</form>
+</body>
+</html>

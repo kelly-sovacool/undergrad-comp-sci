@@ -1,0 +1,24 @@
+# http://guides.rubyonrails.org/command_line.html
+
+--------------------------------------------------
+- rails new p5
+- cd p5
+- rails generate controller gamestats index search create
+
+# the following command will replace the routes
+- cp ~paul/HTML/CS316/P5/routes.rb config/
+
+# copy the controller file
+- cp ~paul/HTML/CS316/P5/gamestats_controller.rb app/controllers/
+
+# copy the example/tub views
+- cp ~paul/HTML/CS316/P5/index.html.erb app/views/gamestats/
+- cp ~paul/HTML/CS316/P5/create.html.erb app/views/gamestats/
+- cp ~paul/HTML/CS316/P5/search.html.erb app/views/gamestats/
+
+# copy the JSON files
+- cp ~paul/HTML/CS316/P5/*.json public/
+
+@ run the server:
+- rails server -b 0.0.0.0 -p PICKAPORT
+
