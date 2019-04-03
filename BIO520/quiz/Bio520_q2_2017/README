@@ -1,0 +1,10 @@
+Edit the two scripts contained in this directory as described below, then rename them to include your last name (e.g. blast_qual_sort_Smith.pl) and place them in your assigned directory on somatic.uky.edu (e.g. X_01@somatic.uky.edu). You may use any resource you like (internet, friends, classmates, your text, other texts …), with the exception of me and my graduate students (Courtney Waterbury, Melissa Keinath and Cody Saraceno). Do not write new scripts that attempt to recreate the output, the script you send me must be an edited version of the scripts you are provided.
+
+1)	The script “blast_qual_sort.pl” filters blast output (tabular formatting) by alignment length and percent identity. Edit this script so that it filters by bitscore and alignment length, ignoring percent identity. 
+
+2)	The script “fasta_stats.pl“ takes in a list of fasta files, counts A, G, C, T, Ns in each sequence from all files, then outputs the number of each base and the total length of the sequence as tab delimited text. Edit this script so that it outputs data in the following format:
+
+Sequence name [tab] %GC [tab] sequence length 
+
+NOTE: GC content should be calculated as the percent of known bases that are G or C. e.g. if half of the bases are G or C it should output 50
+

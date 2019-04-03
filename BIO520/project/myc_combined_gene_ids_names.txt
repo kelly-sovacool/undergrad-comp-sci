@@ -1,0 +1,52 @@
+gene_name	gene_id	description
+ASCL1	gi|190343011|ref|NM_004316.3|	Homo sapiens achaete-scute family bHLH transcription factor 1 (ASCL1), mRNA
+CASP3	gi|73622122|ref|NM_032991.2|	Homo sapiens caspase 3, apoptosis-related cysteine peptidase (CASP3), transcript variant beta, mRNA
+CCND1	gi|77628152|ref|NM_053056.2|	Homo sapiens cyclin D1 (CCND1), mRNA
+CDK6	gi|223718133|ref|NM_001145306.1|	Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant 2, mRNA
+CITED1	gi|222136689|ref|NM_001144886.1|	Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 3, mRNA
+DCX	gi|306482598|ref|NM_178153.2|	Homo sapiens doublecortin (DCX), transcript variant 3, mRNA
+DKK1	gi|61676924|ref|NM_012242.2|	Homo sapiens dickkopf WNT signaling pathway inhibitor 1 (DKK1), mRNA
+DUSP1	gi|1034581681|ref|XM_005253488.2|	PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X4, mRNA
+DUSP10	gi|606215202|ref|NR_111940.1|	Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant 3, non-coding RNA
+DUSP15	gi|1034622774|ref|XM_017027656.1|	PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X3, mRNA
+DUSP16	gi|295849296|ref|NM_030640.2|	Homo sapiens dual specificity phosphatase 16 (DUSP16), mRNA
+DUSP18	gi|755571531|ref|NM_001304795.1|	Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 3, mRNA
+DUSP23	gi|985567527|ref|NM_001319659.1|	Homo sapiens dual specificity phosphatase 23 (DUSP23), transcript variant 2, mRNA
+DUSP26	gi|760998196|ref|NM_001305115.1|	Homo sapiens dual specificity phosphatase 26 (putative) (DUSP26), transcript variant 2, mRNA
+DUSP3	gi|167466211|ref|NM_004090.3|	Homo sapiens dual specificity phosphatase 3 (DUSP3), mRNA
+DUSP4	gi|325651887|ref|NM_001394.6|	Homo sapiens dual specificity phosphatase 4 (DUSP4), transcript variant 1, mRNA
+DUSP5	gi|62865889|ref|NM_004419.3|	Homo sapiens dual specificity phosphatase 5 (DUSP5), mRNA
+DUSP6	gi|576796282|ref|NM_022652.3|	Homo sapiens dual specificity phosphatase 6 (DUSP6), transcript variant 2, mRNA
+DUSP7	gi|238231452|ref|NM_001947.3|	Homo sapiens dual specificity phosphatase 7 (DUSP7), mRNA
+DUSP8	gi|1034572283|ref|XM_011519933.2|	PREDICTED: Homo sapiens dual specificity phosphatase 8 (DUSP8), transcript variant X2, mRNA
+DUSP9	gi|574957153|ref|NM_001395.3|	Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant 1, mRNA
+EGFR	gi|41327737|ref|NM_005228.3|	Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 1, mRNA
+EGR2	gi|209969754|ref|NM_001136178.1|	Homo sapiens early growth response 2 (EGR2), transcript variant 3, mRNA
+FOS	gi|254750707|ref|NM_005252.3|	Homo sapiens Fos proto-oncogene, AP-1 trancription factor subunit (FOS), mRNA
+HES6	gi|539847509|ref|NM_001142853.2|	Homo sapiens hes family bHLH transcription factor 6 (HES6), transcript variant 2, mRNA
+ID2	gi|33946335|ref|NM_002166.4|	Homo sapiens inhibitor of DNA binding 2, HLH protein (ID2), mRNA
+ID4	gi|365733618|ref|NM_001546.3|	Homo sapiens inhibitor of DNA binding 4, HLH protein (ID4), mRNA
+JUN	gi|44890066|ref|NM_002228.3|	Homo sapiens Jun proto-oncogene, AP-1 transcription factor subunit (JUN), mRNA
+KDM1A	gi|1034556766|ref|XM_006710473.2|	PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X4, mRNA
+LHX2	gi|30795195|ref|NM_004789.3|	Homo sapiens LIM homeobox 2 (LHX2), mRNA
+MAP2	gi|87578393|ref|NM_001039538.1|	Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 5, mRNA
+MIAT	gi|732170678|ref|NR_003491.3|	Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 1, long non-coding RNA
+MKI67	gi|225543214|ref|NM_001145966.1|	Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant 2, mRNA
+NCL	gi|55956787|ref|NM_005381.2|	Homo sapiens nucleolin (NCL), mRNA
+NES	gi|38176299|ref|NM_006617.1|	Homo sapiens nestin (NES), mRNA
+NOTCH1	gi|975830165|ref|NM_017617.4|	Homo sapiens notch 1 (NOTCH1), mRNA
+NTRK2	gi|1034665388|ref|XM_011518718.2|	PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X5, mRNA
+OLIG1	gi|237757327|ref|NM_138983.2|	Homo sapiens oligodendrocyte transcription factor 1 (OLIG1), mRNA
+OLIG2	gi|345842510|ref|NM_005806.3|	Homo sapiens oligodendrocyte lineage transcription factor 2 (OLIG2), mRNA
+POU3F2	gi|380254475|ref|NM_005604.3|	Homo sapiens POU class 3 homeobox 2 (POU3F2), mRNA
+PPP2R5A	gi|315113858|ref|NM_006243.3|	Homo sapiens protein phosphatase 2 regulatory subunit B', alpha (PPP2R5A), transcript variant 1, mRNA
+PTEN	gi|783137733|ref|NM_000314.6|	Homo sapiens phosphatase and tensin homolog (PTEN), transcript variant 1, mRNA
+RCOR2	gi|269847039|ref|NM_173587.3|	Homo sapiens REST corepressor 2 (RCOR2), mRNA
+RFX4	gi|331999957|ref|NM_213594.2|	Homo sapiens regulatory factor X4 (RFX4), transcript variant 3, mRNA
+SALL1	gi|1034595498|ref|XM_006721241.3|	PREDICTED: Homo sapiens spalt like transcription factor 1 (SALL1), transcript variant X2, mRNA
+SOX1	gi|30179899|ref|NM_005986.2|	Homo sapiens SRY-box 1 (SOX1), mRNA
+SOX2	gi|325651854|ref|NM_003106.3|	Homo sapiens SRY-box 2 (SOX2), mRNA
+SOX8	gi|574957188|ref|NM_014587.4|	Homo sapiens SRY-box 8 (SOX8), mRNA
+UBC	gi|601984519|ref|NM_021009.6|	Homo sapiens ubiquitin C (UBC), mRNA
+ZEB1	gi|1021312267|ref|NM_001323643.1|	Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 10, mRNA
+ZEB2	gi|284413745|ref|NM_001171653.1|	Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 2, mRNA

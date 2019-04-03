@@ -1,0 +1,20 @@
+{
+	"treatments_dir": "calc_expr/",
+	"ebseq_dir": "ebseq/",
+	"calc_expr_extension": ".genes.results",
+	"treatments": {
+		"00hrs": {"SRR4188730", "SRR4188733", "SRR418747", "SRR4188750", "SRR4188753"},
+		"04hrs": {"SRR4188734", "SRR4188755"},
+		"08hrs": {"SRR4188735", "SRR4188756"},
+		"16hrs": {"SRR4188736"},
+		"24hrs": {"SRR4188731", "SRR4188748", "SRR4188751"},
+		"48hrs": {"SRR4188732", "SRR4188749", "SRR4188752"}
+	},
+	"ebseq_runs": {
+		"04_vs_ctrl.ebseq": ["04hrs", "00hrs"],
+		"08_vs_ctrl.ebseq": ["08hrs", "00hrs"],
+		"16_vs_ctrl.ebseq": ["16hrs", "00hrs"],
+		"24_vs_ctrl.ebseq": ["24hrs", "00hrs"],
+		"48_vs_ctrl.ebseq": ["48hrs", "00hrs"]
+	}
+}

@@ -1,0 +1,8 @@
+Function	3HPI_PostFC	6HPI_PostFC	12HPI_PostFC	24HPI_PostFC	36HPI_PostFC	48HPI_PostFC
+Fusarium Reistance Orphan Protein Homolog 1	0	2.47E-14	0	2.04E-13	0.999999679	0.089876141
+Fusarium Reistance Orphan Protein Homolog 2	4.59E-15	0.003475705	0.004657486	5.41E-14	0.261871941	0.018851692
+Fusarium Reistance Orphan Protein Homolog 3	7.02E-12	0	0	0	0	0
+Fusarium Reistance Orphan Protein Homolog 4	0	0	0	0	0	0
+Fusarium Reistance Orphan Protein Homolog 5	0.474936275	7.70E-12	8.24E-10	9.92E-10	1.19E-13	1.29E-08
+Fusarium Reistance Orphan Protein Homolog 6	0.470784237	1.75E-14	2.03E-14	1.11E-11	1	0.03096848
+Fusarium Reistance Orphan Protein Homolog 7	0	2.47E-14	0	2.04E-13	0.999999679	0.089876141

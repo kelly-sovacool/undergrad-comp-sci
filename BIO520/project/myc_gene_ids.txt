@@ -1,0 +1,552 @@
+>gi|62865889|ref|NM_004419.3| Homo sapiens dual specificity phosphatase 5 (DUSP5), mRNA
+>gi|576796282|ref|NM_022652.3| Homo sapiens dual specificity phosphatase 6 (DUSP6), transcript variant 2, mRNA
+>gi|576796261|ref|NM_001946.3| Homo sapiens dual specificity phosphatase 6 (DUSP6), transcript variant 1, mRNA
+>gi|325651887|ref|NM_001394.6| Homo sapiens dual specificity phosphatase 4 (DUSP4), transcript variant 1, mRNA
+>gi|325651888|ref|NM_057158.3| Homo sapiens dual specificity phosphatase 4 (DUSP4), transcript variant 2, mRNA
+>gi|1034659494|ref|XM_011544428.2| PREDICTED: Homo sapiens dual specificity phosphatase 4 (DUSP4), transcript variant X1, mRNA
+>gi|295849296|ref|NM_030640.2| Homo sapiens dual specificity phosphatase 16 (DUSP16), mRNA
+>gi|1034581681|ref|XM_005253488.2| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X4, mRNA
+>gi|767972417|ref|XM_011520857.1| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X2, mRNA
+>gi|1034581682|ref|XM_017019988.1| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X5, mRNA
+>gi|767972419|ref|XM_006719155.2| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X3, mRNA
+>gi|767972415|ref|XM_011520856.1| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X1, mRNA
+>gi|574957153|ref|NM_001395.3| Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant 1, mRNA
+>gi|768039802|ref|XM_011531123.1| PREDICTED: Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant X1, mRNA
+>gi|972781549|ref|NM_001318503.1| Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant 1, mRNA
+>gi|768039804|ref|XM_011531124.1| PREDICTED: Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant X2, mRNA
+>gi|238231452|ref|NM_001947.3| Homo sapiens dual specificity phosphatase 7 (DUSP7), mRNA
+>gi|259013538|ref|NM_004417.3| Homo sapiens dual specificity phosphatase 1 (DUSP1), mRNA
+>gi|606215202|ref|NR_111940.1| Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant 3, non-coding RNA
+>gi|606215181|ref|NM_007207.5| Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant 1, mRNA
+>gi|606215201|ref|NR_111939.1| Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant 2, non-coding RNA
+>gi|1034554994|ref|XM_017000147.1| PREDICTED: Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant X1, mRNA
+>gi|1034572283|ref|XM_011519933.2| PREDICTED: Homo sapiens dual specificity phosphatase 8 (DUSP8), transcript variant X2, mRNA
+>gi|153281157|ref|NM_004420.2| Homo sapiens dual specificity phosphatase 8 (DUSP8), mRNA
+>gi|1034572282|ref|XM_011519932.2| PREDICTED: Homo sapiens dual specificity phosphatase 8 (DUSP8), transcript variant X1, mRNA
+>gi|760998196|ref|NM_001305115.1| Homo sapiens dual specificity phosphatase 26 (putative) (DUSP26), transcript variant 2, mRNA
+>gi|760998150|ref|NM_024025.2| Homo sapiens dual specificity phosphatase 26 (putative) (DUSP26), transcript variant 1, mRNA
+>gi|760998290|ref|NM_001305116.1| Homo sapiens dual specificity phosphatase 26 (putative) (DUSP26), transcript variant 3, mRNA
+>gi|1034622774|ref|XM_017027656.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X3, mRNA
+>gi|1034622782|ref|XM_017027660.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X7, mRNA
+>gi|1034622778|ref|XM_017027658.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X5, mRNA
+>gi|1034622780|ref|XM_017027659.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X6, mRNA
+>gi|1034622786|ref|XM_017027662.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X9, mRNA
+>gi|1034622784|ref|XM_017027661.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X8, mRNA
+>gi|1034622772|ref|XM_017027655.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X2, mRNA
+>gi|1034622776|ref|XM_017027657.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X4, mRNA
+>gi|1034622770|ref|XM_017027654.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X1, mRNA
+>gi|1001184417|ref|NM_001320479.1| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 5, mRNA
+>gi|1034622788|ref|XR_001754159.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X10, misc_RNA
+>gi|1034622789|ref|XR_001754160.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X11, misc_RNA
+>gi|1001184412|ref|NM_080611.4| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 1, mRNA
+>gi|1001184415|ref|NM_001320478.1| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 4, mRNA
+>gi|1001184413|ref|NM_177991.2| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 2, mRNA
+>gi|1001184414|ref|NM_001012644.2| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 3, mRNA
+>gi|755571531|ref|NM_001304795.1| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 3, mRNA
+>gi|1034628372|ref|XM_017028628.1| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X6, mRNA
+>gi|1034628374|ref|XR_001755171.1| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X7, misc_RNA
+>gi|1034628369|ref|XM_005261368.4| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X4, mRNA
+>gi|1034628370|ref|XM_017028627.1| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X5, mRNA
+>gi|1034628368|ref|XM_006724148.3| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X3, mRNA
+>gi|1034628367|ref|XM_011529921.2| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X2, mRNA
+>gi|1034628366|ref|XM_011529920.2| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X1, mRNA
+>gi|755571539|ref|NM_001304796.1| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 4, mRNA
+>gi|755571543|ref|NM_152511.4| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 2, mRNA
+>gi|755571544|ref|NM_001304794.1| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 1, mRNA
+>gi|167466211|ref|NM_004090.3| Homo sapiens dual specificity phosphatase 3 (DUSP3), mRNA
+>gi|985567527|ref|NM_001319659.1| Homo sapiens dual specificity phosphatase 23 (DUSP23), transcript variant 2, mRNA
+>gi|985567529|ref|NM_017823.4| Homo sapiens dual specificity phosphatase 23 (DUSP23), transcript variant 3, mRNA
+>gi|985567525|ref|NM_001319658.1| Homo sapiens dual specificity phosphatase 23 (DUSP23), transcript variant 1, mRNA
+>gi|190343011|ref|NM_004316.3| Homo sapiens achaete-scute family bHLH transcription factor 1 (ASCL1), mRNA
+>gi|222136689|ref|NM_001144886.1| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 3, mRNA
+>gi|222136685|ref|NM_004143.3| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 1, mRNA
+>gi|222136691|ref|NM_001144887.1| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 4, mRNA
+>gi|222136687|ref|NM_001144885.1| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 2, mRNA
+>gi|768037760|ref|XM_011530958.1| PREDICTED: Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant X1, mRNA
+>gi|539847509|ref|NM_001142853.2| Homo sapiens hes family bHLH transcription factor 6 (HES6), transcript variant 2, mRNA
+>gi|539847751|ref|NM_001282434.1| Homo sapiens hes family bHLH transcription factor 6 (HES6), transcript variant 3, mRNA
+>gi|539847511|ref|NM_018645.5| Homo sapiens hes family bHLH transcription factor 6 (HES6), transcript variant 1, mRNA
+>gi|30795195|ref|NM_004789.3| Homo sapiens LIM homeobox 2 (LHX2), mRNA
+>gi|767958745|ref|XM_006717323.2| PREDICTED: Homo sapiens LIM homeobox 2 (LHX2), transcript variant X1, mRNA
+>gi|237757327|ref|NM_138983.2| Homo sapiens oligodendrocyte transcription factor 1 (OLIG1), mRNA
+>gi|345842510|ref|NM_005806.3| Homo sapiens oligodendrocyte lineage transcription factor 2 (OLIG2), mRNA
+>gi|530418755|ref|XM_005260908.1| PREDICTED: Homo sapiens oligodendrocyte lineage transcription factor 2 (OLIG2), transcript variant X1, mRNA
+>gi|380254475|ref|NM_005604.3| Homo sapiens POU class 3 homeobox 2 (POU3F2), mRNA
+>gi|331999957|ref|NM_213594.2| Homo sapiens regulatory factor X4 (RFX4), transcript variant 3, mRNA
+>gi|331999965|ref|NM_001206691.1| Homo sapiens regulatory factor X4 (RFX4), transcript variant 4, mRNA
+>gi|331999964|ref|NM_032491.5| Homo sapiens regulatory factor X4 (RFX4), transcript variant 1, mRNA
+>gi|30179899|ref|NM_005986.2| Homo sapiens SRY-box 1 (SOX1), mRNA
+>gi|325651854|ref|NM_003106.3| Homo sapiens SRY-box 2 (SOX2), mRNA
+>gi|574957188|ref|NM_014587.4| Homo sapiens SRY-box 8 (SOX8), mRNA
+>gi|1034595498|ref|XM_006721241.3| PREDICTED: Homo sapiens spalt like transcription factor 1 (SALL1), transcript variant X2, mRNA
+>gi|1034595497|ref|XM_011523254.2| PREDICTED: Homo sapiens spalt like transcription factor 1 (SALL1), transcript variant X1, mRNA
+>gi|118442836|ref|NM_002968.2| Homo sapiens spalt-like transcription factor 1 (SALL1), transcript variant 1, mRNA
+>gi|189217875|ref|NM_001127892.1| Homo sapiens spalt-like transcription factor 1 (SALL1), transcript variant 2, mRNA
+>gi|44890066|ref|NM_002228.3| Homo sapiens Jun proto-oncogene, AP-1 transcription factor subunit (JUN), mRNA
+>gi|254750707|ref|NM_005252.3| Homo sapiens Fos proto-oncogene, AP-1 trancription factor subunit (FOS), mRNA
+>gi|33946335|ref|NM_002166.4| Homo sapiens inhibitor of DNA binding 2, HLH protein (ID2), mRNA
+>gi|365733618|ref|NM_001546.3| Homo sapiens inhibitor of DNA binding 4, HLH protein (ID4), mRNA
+>gi|1021312267|ref|NM_001323643.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 10, mRNA
+>gi|1021312169|ref|NM_001323638.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 3, mRNA
+>gi|1021311716|ref|NM_001323646.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 13, mRNA
+>gi|1021312345|ref|NM_001323642.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 5, mRNA
+>gi|1021312067|ref|NM_001323645.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 12, mRNA
+>gi|1021312326|ref|NM_001323641.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 4, mRNA
+>gi|1021311794|ref|NM_001323644.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 11, mRNA
+>gi|1021312429|ref|NM_001323654.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 21, mRNA
+>gi|1021312371|ref|NM_001323651.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 18, mRNA
+>gi|1021312427|ref|NM_001323650.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 17, mRNA
+>gi|1021311977|ref|NM_001323653.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 20, mRNA
+>gi|1021312059|ref|NM_001323655.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 22, mRNA
+>gi|1021311861|ref|NM_001323652.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 19, mRNA
+>gi|1021311818|ref|NM_001323649.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 16, mRNA
+>gi|1021312069|ref|NM_001323647.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 14, mRNA
+>gi|1021312330|ref|NM_001323648.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 15, mRNA
+>gi|291575191|ref|NM_001174096.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 9, mRNA
+>gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA
+>gi|291575184|ref|NM_001174093.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 6, mRNA
+>gi|1021312165|ref|NM_001323674.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 37, mRNA
+>gi|291575189|ref|NM_001174095.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 8, mRNA
+>gi|1034569382|ref|XM_006717498.2| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X1, mRNA
+>gi|1034569384|ref|XM_017016597.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X3, mRNA
+>gi|1021312353|ref|NM_001323658.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 25, mRNA
+>gi|1021312419|ref|NM_001323657.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 24, mRNA
+>gi|1021311934|ref|NM_001323656.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 23, mRNA
+>gi|1021311752|ref|NM_001323661.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 28, mRNA
+>gi|1021311832|ref|NM_001323659.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 26, mRNA
+>gi|1021312083|ref|NM_001323660.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 27, mRNA
+>gi|1021311718|ref|NM_001323663.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 30, mRNA
+>gi|1021311936|ref|NM_001323662.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 29, mRNA
+>gi|1021312125|ref|NM_001323664.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 31, mRNA
+>gi|1021312251|ref|NM_001323665.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 32, mRNA
+>gi|1021311746|ref|NM_001323666.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 33, mRNA
+>gi|291575183|ref|NM_001128128.2| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 1, mRNA
+>gi|291575187|ref|NM_001174094.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 7, mRNA
+>gi|1021312365|ref|NM_001323678.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 41, mRNA
+>gi|1034569383|ref|XM_011519643.2| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X2, mRNA
+>gi|1021312387|ref|NM_001323672.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 35, mRNA
+>gi|1021312141|ref|NM_001323671.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 34, mRNA
+>gi|1021311908|ref|NM_001323673.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 36, mRNA
+>gi|1021311942|ref|NM_001323676.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 39, mRNA
+>gi|1021312273|ref|NM_001323677.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 40, mRNA
+>gi|1021312334|ref|NM_001323675.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 38, mRNA
+>gi|1034569390|ref|XM_017016600.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X6, mRNA
+>gi|1034569394|ref|XM_017016602.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X8, mRNA
+>gi|1034569386|ref|XM_017016598.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X4, mRNA
+>gi|1034569392|ref|XM_017016601.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X7, mRNA
+>gi|1034569396|ref|XM_017016603.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X9, mRNA
+>gi|1034569388|ref|XM_017016599.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X5, mRNA
+>gi|284413745|ref|NM_001171653.1| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 2, mRNA
+>gi|284413744|ref|NM_014795.3| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 1, mRNA
+>gi|1034618114|ref|XM_011512232.2| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X5, mRNA
+>gi|1034618108|ref|XM_006712882.3| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X1, mRNA
+>gi|1034618109|ref|XM_006712881.3| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X2, mRNA
+>gi|1034618112|ref|XM_017005415.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X4, mRNA
+>gi|1034618110|ref|XM_017005414.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X3, mRNA
+>gi|284413747|ref|NR_033258.1| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 3, non-coding RNA
+>gi|209969754|ref|NM_001136178.1| Homo sapiens early growth response 2 (EGR2), transcript variant 3, mRNA
+>gi|767961941|ref|XM_011539427.1| PREDICTED: Homo sapiens early growth response 2 (EGR2), transcript variant X1, mRNA
+>gi|1005261236|ref|NM_001321037.1| Homo sapiens early growth response 2 (EGR2), transcript variant 5, mRNA
+>gi|1005261233|ref|NM_001136177.2| Homo sapiens early growth response 2 (EGR2), transcript variant 2, mRNA
+>gi|1005261234|ref|NM_001136179.2| Homo sapiens early growth response 2 (EGR2), transcript variant 4, mRNA
+>gi|1005261235|ref|NM_000399.4| Homo sapiens early growth response 2 (EGR2), transcript variant 1, mRNA
+>gi|77628152|ref|NM_053056.2| Homo sapiens cyclin D1 (CCND1), mRNA
+>gi|73622122|ref|NM_032991.2| Homo sapiens caspase 3, apoptosis-related cysteine peptidase (CASP3), transcript variant beta, mRNA
+>gi|73622121|ref|NM_004346.3| Homo sapiens caspase 3, apoptosis-related cysteine peptidase (CASP3), transcript variant alpha, mRNA
+>gi|767932778|ref|XM_011532301.1| PREDICTED: Homo sapiens caspase 3 (CASP3), transcript variant X1, mRNA
+>gi|306482598|ref|NM_178153.2| Homo sapiens doublecortin (DCX), transcript variant 3, mRNA
+>gi|306482597|ref|NM_178152.2| Homo sapiens doublecortin (DCX), transcript variant 2, mRNA
+>gi|307078114|ref|NM_001195553.1| Homo sapiens doublecortin (DCX), transcript variant 5, mRNA
+>gi|306482596|ref|NM_178151.2| Homo sapiens doublecortin (DCX), transcript variant 4, mRNA
+>gi|306482599|ref|NM_000555.3| Homo sapiens doublecortin (DCX), transcript variant 1, mRNA
+>gi|1034673665|ref|XM_011530880.2| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X4, mRNA
+>gi|1034673663|ref|XM_011530878.2| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X2, mRNA
+>gi|1034673664|ref|XM_011530879.2| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X3, mRNA
+>gi|1034673661|ref|XM_017029312.1| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X1, mRNA
+>gi|61676924|ref|NM_012242.2| Homo sapiens dickkopf WNT signaling pathway inhibitor 1 (DKK1), mRNA
+>gi|41327737|ref|NM_005228.3| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 1, mRNA
+>gi|41327735|ref|NM_201284.1| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 4, mRNA
+>gi|41327731|ref|NM_201282.1| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 2, mRNA
+>gi|41327733|ref|NM_201283.1| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 3, mRNA
+>gi|87578393|ref|NM_001039538.1| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 5, mRNA
+>gi|767918158|ref|XM_011511186.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X2, mRNA
+>gi|1034614015|ref|XM_017004118.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X20, mRNA
+>gi|1034614021|ref|XM_017004121.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X23, mRNA
+>gi|1034614027|ref|XM_017004124.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X26, mRNA
+>gi|1034614055|ref|XM_017004138.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X42, mRNA
+>gi|1034614059|ref|XM_017004140.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X44, mRNA
+>gi|1034614023|ref|XM_017004122.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X24, mRNA
+>gi|1034614005|ref|XM_017004113.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X15, mRNA
+>gi|530370352|ref|XM_005246555.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X1, mRNA
+>gi|1034614001|ref|XM_017004112.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X11, mRNA
+>gi|1034614007|ref|XM_017004114.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X16, mRNA
+>gi|1034614017|ref|XM_017004119.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X21, mRNA
+>gi|1034614003|ref|XM_011511196.2| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X13, mRNA
+>gi|1034614025|ref|XM_017004123.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X25, mRNA
+>gi|1034614031|ref|XM_017004126.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X28, mRNA
+>gi|1034614029|ref|XM_017004125.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X27, mRNA
+>gi|578804344|ref|XM_006712532.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X5, mRNA
+>gi|1034614019|ref|XM_017004120.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X22, mRNA
+>gi|1034614004|ref|XM_011511197.2| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X14, mRNA
+>gi|1034614033|ref|XM_017004127.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X29, mRNA
+>gi|87578395|ref|NM_002374.3| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 1, mRNA
+>gi|87578254|ref|NM_031847.2| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 4, mRNA
+>gi|87578391|ref|NM_031845.2| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 2, mRNA
+>gi|767918166|ref|XM_011511190.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X6, mRNA
+>gi|767918170|ref|XM_011511192.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X8, mRNA
+>gi|767918162|ref|XM_011511188.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X3, mRNA
+>gi|767918172|ref|XM_011511193.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X10, mRNA
+>gi|767918160|ref|XM_011511187.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X4, mRNA
+>gi|1034613999|ref|XM_017004111.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X9, mRNA
+>gi|767918168|ref|XM_011511191.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X7, mRNA
+>gi|1034614009|ref|XM_017004115.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X17, mRNA
+>gi|1034614011|ref|XM_017004116.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X18, mRNA
+>gi|767918176|ref|XM_011511195.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X12, mRNA
+>gi|1034614013|ref|XM_017004117.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X19, mRNA
+>gi|1034614035|ref|XM_017004128.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X30, mRNA
+>gi|1034614037|ref|XM_017004129.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X31, mRNA
+>gi|1034614057|ref|XM_017004139.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X43, mRNA
+>gi|1034614039|ref|XM_017004130.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X34, mRNA
+>gi|1034614049|ref|XM_017004135.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X39, mRNA
+>gi|530370372|ref|XM_005246565.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X32, mRNA
+>gi|1034614041|ref|XM_017004131.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X35, mRNA
+>gi|1034614045|ref|XM_017004133.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X37, mRNA
+>gi|1034614051|ref|XM_017004136.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X40, mRNA
+>gi|530370374|ref|XM_005246566.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X33, mRNA
+>gi|1034614043|ref|XM_017004132.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X36, mRNA
+>gi|1034614047|ref|XM_017004134.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X38, mRNA
+>gi|1034614053|ref|XM_017004137.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X41, mRNA
+>gi|732170678|ref|NR_003491.3| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 1, long non-coding RNA
+>gi|732170679|ref|NR_033319.2| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 2, long non-coding RNA
+>gi|732170680|ref|NR_033320.2| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 3, long non-coding RNA
+>gi|732170681|ref|NR_033321.2| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 4, long non-coding RNA
+>gi|225543214|ref|NM_001145966.1| Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant 2, mRNA
+>gi|225543213|ref|NM_002417.4| Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant 1, mRNA
+>gi|1034568322|ref|XM_011539818.2| PREDICTED: Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant X1, mRNA
+>gi|1034568323|ref|XM_006717864.3| PREDICTED: Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant X2, mRNA
+>gi|38176299|ref|NM_006617.1| Homo sapiens nestin (NES), mRNA
+>gi|975830165|ref|NM_017617.4| Homo sapiens notch 1 (NOTCH1), mRNA
+>gi|1034665363|ref|XM_011518717.2| PREDICTED: Homo sapiens notch 1 (NOTCH1), transcript variant X1, mRNA
+>gi|1034665388|ref|XM_011518718.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X5, mRNA
+>gi|1034665385|ref|XM_017014751.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X3, mRNA
+>gi|1034665391|ref|XM_017014753.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X7, mRNA
+>gi|1034665383|ref|XM_005252001.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X1, mRNA
+>gi|1034665395|ref|XM_005252006.3| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X9, mRNA
+>gi|1034665400|ref|XM_011518720.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X12, mRNA
+>gi|1034665408|ref|XM_017014760.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X17, mRNA
+>gi|1034665403|ref|XM_005252007.3| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X14, mRNA
+>gi|633257773|ref|NM_006180.4| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant a, mRNA
+>gi|633257776|ref|NM_001291937.1| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant f, mRNA
+>gi|1034665384|ref|XM_005252003.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X2, mRNA
+>gi|1034665398|ref|XM_017014756.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X11, mRNA
+>gi|1034665406|ref|XM_017014759.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X16, mRNA
+>gi|1034665389|ref|XM_017014752.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X6, mRNA
+>gi|1034665396|ref|XM_017014755.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X10, mRNA
+>gi|1034665401|ref|XM_017014757.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X13, mRNA
+>gi|1034665404|ref|XM_017014758.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X15, mRNA
+>gi|1034665387|ref|XM_005252004.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X4, mRNA
+>gi|1034665393|ref|XM_017014754.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X8, mRNA
+>gi|1034665410|ref|XM_017014761.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X18, mRNA
+>gi|206597532|ref|NM_001018065.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant d, mRNA
+>gi|206597545|ref|NM_001018066.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant e, mRNA
+>gi|633257774|ref|NM_001007097.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant b, mRNA
+>gi|633257775|ref|NM_001018064.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant c, mRNA
+>gi|601984519|ref|NM_021009.6| Homo sapiens ubiquitin C (UBC), mRNA
+>gi|1034556766|ref|XM_006710473.2| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X4, mRNA
+>gi|1034556763|ref|XM_006710474.3| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X1, mRNA
+>gi|1034556767|ref|XM_017000716.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X5, mRNA
+>gi|1034556764|ref|XM_005245786.2| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X2, mRNA
+>gi|1034556765|ref|XM_006710472.3| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X3, mRNA
+>gi|1034556769|ref|XM_017000717.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X6, mRNA
+>gi|226437585|ref|NM_001009999.2| Homo sapiens lysine (K)-specific demethylase 1A (KDM1A), transcript variant 1, mRNA
+>gi|226437582|ref|NM_015013.3| Homo sapiens lysine (K)-specific demethylase 1A (KDM1A), transcript variant 2, mRNA
+>gi|1034556775|ref|XM_017000720.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X9, mRNA
+>gi|1034556773|ref|XM_017000719.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X8, mRNA
+>gi|1034556771|ref|XM_017000718.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X7, mRNA
+>gi|269847039|ref|NM_173587.3| Homo sapiens REST corepressor 2 (RCOR2), mRNA
+>gi|1034573213|ref|XM_005273932.3| PREDICTED: Homo sapiens REST corepressor 2 (RCOR2), transcript variant X1, mRNA
+>gi|223718133|ref|NM_001145306.1| Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant 2, mRNA
+>gi|223718130|ref|NM_001259.6| Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant 1, mRNA
+>gi|1034653842|ref|XM_006715835.2| PREDICTED: Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant X1, mRNA
+>gi|315113858|ref|NM_006243.3| Homo sapiens protein phosphatase 2 regulatory subunit B', alpha (PPP2R5A), transcript variant 1, mRNA
+>gi|315113859|ref|NM_001199756.1| Homo sapiens protein phosphatase 2 regulatory subunit B', alpha (PPP2R5A), transcript variant 2, mRNA
+>gi|783137733|ref|NM_000314.6| Homo sapiens phosphatase and tensin homolog (PTEN), transcript variant 1, mRNA
+>gi|799322615|ref|NM_001304717.2| Homo sapiens phosphatase and tensin homolog (PTEN), transcript variant 1, mRNA
+>gi|754502063|ref|NM_001304718.1| Homo sapiens phosphatase and tensin homolog (PTEN), transcript variant 2, mRNA
+>gi|55956787|ref|NM_005381.2| Homo sapiens nucleolin (NCL), mRNA
+>gi|62865889|ref|NM_004419.3| Homo sapiens dual specificity phosphatase 5 (DUSP5), mRNA
+>gi|576796282|ref|NM_022652.3| Homo sapiens dual specificity phosphatase 6 (DUSP6), transcript variant 2, mRNA
+>gi|576796261|ref|NM_001946.3| Homo sapiens dual specificity phosphatase 6 (DUSP6), transcript variant 1, mRNA
+>gi|325651887|ref|NM_001394.6| Homo sapiens dual specificity phosphatase 4 (DUSP4), transcript variant 1, mRNA
+>gi|325651888|ref|NM_057158.3| Homo sapiens dual specificity phosphatase 4 (DUSP4), transcript variant 2, mRNA
+>gi|1034659494|ref|XM_011544428.2| PREDICTED: Homo sapiens dual specificity phosphatase 4 (DUSP4), transcript variant X1, mRNA
+>gi|295849296|ref|NM_030640.2| Homo sapiens dual specificity phosphatase 16 (DUSP16), mRNA
+>gi|1034581681|ref|XM_005253488.2| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X4, mRNA
+>gi|767972417|ref|XM_011520857.1| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X2, mRNA
+>gi|1034581682|ref|XM_017019988.1| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X5, mRNA
+>gi|767972419|ref|XM_006719155.2| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X3, mRNA
+>gi|767972415|ref|XM_011520856.1| PREDICTED: Homo sapiens dual specificity phosphatase 16 (DUSP16), transcript variant X1, mRNA
+>gi|574957153|ref|NM_001395.3| Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant 1, mRNA
+>gi|768039802|ref|XM_011531123.1| PREDICTED: Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant X1, mRNA
+>gi|972781549|ref|NM_001318503.1| Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant 1, mRNA
+>gi|768039804|ref|XM_011531124.1| PREDICTED: Homo sapiens dual specificity phosphatase 9 (DUSP9), transcript variant X2, mRNA
+>gi|238231452|ref|NM_001947.3| Homo sapiens dual specificity phosphatase 7 (DUSP7), mRNA
+>gi|259013538|ref|NM_004417.3| Homo sapiens dual specificity phosphatase 1 (DUSP1), mRNA
+>gi|606215202|ref|NR_111940.1| Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant 3, non-coding RNA
+>gi|606215181|ref|NM_007207.5| Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant 1, mRNA
+>gi|606215201|ref|NR_111939.1| Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant 2, non-coding RNA
+>gi|1034554994|ref|XM_017000147.1| PREDICTED: Homo sapiens dual specificity phosphatase 10 (DUSP10), transcript variant X1, mRNA
+>gi|1034572283|ref|XM_011519933.2| PREDICTED: Homo sapiens dual specificity phosphatase 8 (DUSP8), transcript variant X2, mRNA
+>gi|153281157|ref|NM_004420.2| Homo sapiens dual specificity phosphatase 8 (DUSP8), mRNA
+>gi|1034572282|ref|XM_011519932.2| PREDICTED: Homo sapiens dual specificity phosphatase 8 (DUSP8), transcript variant X1, mRNA
+>gi|760998196|ref|NM_001305115.1| Homo sapiens dual specificity phosphatase 26 (putative) (DUSP26), transcript variant 2, mRNA
+>gi|760998150|ref|NM_024025.2| Homo sapiens dual specificity phosphatase 26 (putative) (DUSP26), transcript variant 1, mRNA
+>gi|760998290|ref|NM_001305116.1| Homo sapiens dual specificity phosphatase 26 (putative) (DUSP26), transcript variant 3, mRNA
+>gi|1034622774|ref|XM_017027656.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X3, mRNA
+>gi|1034622782|ref|XM_017027660.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X7, mRNA
+>gi|1034622778|ref|XM_017027658.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X5, mRNA
+>gi|1034622780|ref|XM_017027659.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X6, mRNA
+>gi|1034622786|ref|XM_017027662.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X9, mRNA
+>gi|1034622784|ref|XM_017027661.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X8, mRNA
+>gi|1034622772|ref|XM_017027655.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X2, mRNA
+>gi|1034622776|ref|XM_017027657.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X4, mRNA
+>gi|1034622770|ref|XM_017027654.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X1, mRNA
+>gi|1001184417|ref|NM_001320479.1| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 5, mRNA
+>gi|1034622788|ref|XR_001754159.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X10, misc_RNA
+>gi|1034622789|ref|XR_001754160.1| PREDICTED: Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant X11, misc_RNA
+>gi|1001184412|ref|NM_080611.4| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 1, mRNA
+>gi|1001184415|ref|NM_001320478.1| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 4, mRNA
+>gi|1001184413|ref|NM_177991.2| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 2, mRNA
+>gi|1001184414|ref|NM_001012644.2| Homo sapiens dual specificity phosphatase 15 (DUSP15), transcript variant 3, mRNA
+>gi|755571531|ref|NM_001304795.1| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 3, mRNA
+>gi|1034628372|ref|XM_017028628.1| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X6, mRNA
+>gi|1034628374|ref|XR_001755171.1| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X7, misc_RNA
+>gi|1034628369|ref|XM_005261368.4| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X4, mRNA
+>gi|1034628370|ref|XM_017028627.1| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X5, mRNA
+>gi|1034628368|ref|XM_006724148.3| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X3, mRNA
+>gi|1034628367|ref|XM_011529921.2| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X2, mRNA
+>gi|1034628366|ref|XM_011529920.2| PREDICTED: Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant X1, mRNA
+>gi|755571539|ref|NM_001304796.1| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 4, mRNA
+>gi|755571543|ref|NM_152511.4| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 2, mRNA
+>gi|755571544|ref|NM_001304794.1| Homo sapiens dual specificity phosphatase 18 (DUSP18), transcript variant 1, mRNA
+>gi|167466211|ref|NM_004090.3| Homo sapiens dual specificity phosphatase 3 (DUSP3), mRNA
+>gi|985567527|ref|NM_001319659.1| Homo sapiens dual specificity phosphatase 23 (DUSP23), transcript variant 2, mRNA
+>gi|985567529|ref|NM_017823.4| Homo sapiens dual specificity phosphatase 23 (DUSP23), transcript variant 3, mRNA
+>gi|985567525|ref|NM_001319658.1| Homo sapiens dual specificity phosphatase 23 (DUSP23), transcript variant 1, mRNA
+>gi|190343011|ref|NM_004316.3| Homo sapiens achaete-scute family bHLH transcription factor 1 (ASCL1), mRNA
+>gi|222136689|ref|NM_001144886.1| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 3, mRNA
+>gi|222136685|ref|NM_004143.3| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 1, mRNA
+>gi|222136691|ref|NM_001144887.1| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 4, mRNA
+>gi|222136687|ref|NM_001144885.1| Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant 2, mRNA
+>gi|768037760|ref|XM_011530958.1| PREDICTED: Homo sapiens Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 1 (CITED1), transcript variant X1, mRNA
+>gi|539847509|ref|NM_001142853.2| Homo sapiens hes family bHLH transcription factor 6 (HES6), transcript variant 2, mRNA
+>gi|539847751|ref|NM_001282434.1| Homo sapiens hes family bHLH transcription factor 6 (HES6), transcript variant 3, mRNA
+>gi|539847511|ref|NM_018645.5| Homo sapiens hes family bHLH transcription factor 6 (HES6), transcript variant 1, mRNA
+>gi|30795195|ref|NM_004789.3| Homo sapiens LIM homeobox 2 (LHX2), mRNA
+>gi|767958745|ref|XM_006717323.2| PREDICTED: Homo sapiens LIM homeobox 2 (LHX2), transcript variant X1, mRNA
+>gi|237757327|ref|NM_138983.2| Homo sapiens oligodendrocyte transcription factor 1 (OLIG1), mRNA
+>gi|345842510|ref|NM_005806.3| Homo sapiens oligodendrocyte lineage transcription factor 2 (OLIG2), mRNA
+>gi|530418755|ref|XM_005260908.1| PREDICTED: Homo sapiens oligodendrocyte lineage transcription factor 2 (OLIG2), transcript variant X1, mRNA
+>gi|380254475|ref|NM_005604.3| Homo sapiens POU class 3 homeobox 2 (POU3F2), mRNA
+>gi|331999957|ref|NM_213594.2| Homo sapiens regulatory factor X4 (RFX4), transcript variant 3, mRNA
+>gi|331999965|ref|NM_001206691.1| Homo sapiens regulatory factor X4 (RFX4), transcript variant 4, mRNA
+>gi|331999964|ref|NM_032491.5| Homo sapiens regulatory factor X4 (RFX4), transcript variant 1, mRNA
+>gi|30179899|ref|NM_005986.2| Homo sapiens SRY-box 1 (SOX1), mRNA
+>gi|325651854|ref|NM_003106.3| Homo sapiens SRY-box 2 (SOX2), mRNA
+>gi|574957188|ref|NM_014587.4| Homo sapiens SRY-box 8 (SOX8), mRNA
+>gi|1034595498|ref|XM_006721241.3| PREDICTED: Homo sapiens spalt like transcription factor 1 (SALL1), transcript variant X2, mRNA
+>gi|1034595497|ref|XM_011523254.2| PREDICTED: Homo sapiens spalt like transcription factor 1 (SALL1), transcript variant X1, mRNA
+>gi|118442836|ref|NM_002968.2| Homo sapiens spalt-like transcription factor 1 (SALL1), transcript variant 1, mRNA
+>gi|189217875|ref|NM_001127892.1| Homo sapiens spalt-like transcription factor 1 (SALL1), transcript variant 2, mRNA
+>gi|44890066|ref|NM_002228.3| Homo sapiens Jun proto-oncogene, AP-1 transcription factor subunit (JUN), mRNA
+>gi|254750707|ref|NM_005252.3| Homo sapiens Fos proto-oncogene, AP-1 trancription factor subunit (FOS), mRNA
+>gi|33946335|ref|NM_002166.4| Homo sapiens inhibitor of DNA binding 2, HLH protein (ID2), mRNA
+>gi|365733618|ref|NM_001546.3| Homo sapiens inhibitor of DNA binding 4, HLH protein (ID4), mRNA
+>gi|1021312267|ref|NM_001323643.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 10, mRNA
+>gi|1021312169|ref|NM_001323638.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 3, mRNA
+>gi|1021311716|ref|NM_001323646.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 13, mRNA
+>gi|1021312345|ref|NM_001323642.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 5, mRNA
+>gi|1021312067|ref|NM_001323645.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 12, mRNA
+>gi|1021312326|ref|NM_001323641.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 4, mRNA
+>gi|1021311794|ref|NM_001323644.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 11, mRNA
+>gi|1021312429|ref|NM_001323654.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 21, mRNA
+>gi|1021312371|ref|NM_001323651.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 18, mRNA
+>gi|1021312427|ref|NM_001323650.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 17, mRNA
+>gi|1021311977|ref|NM_001323653.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 20, mRNA
+>gi|1021312059|ref|NM_001323655.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 22, mRNA
+>gi|1021311861|ref|NM_001323652.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 19, mRNA
+>gi|1021311818|ref|NM_001323649.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 16, mRNA
+>gi|1021312069|ref|NM_001323647.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 14, mRNA
+>gi|1021312330|ref|NM_001323648.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 15, mRNA
+>gi|291575191|ref|NM_001174096.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 9, mRNA
+>gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA
+>gi|291575184|ref|NM_001174093.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 6, mRNA
+>gi|1021312165|ref|NM_001323674.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 37, mRNA
+>gi|291575189|ref|NM_001174095.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 8, mRNA
+>gi|1034569382|ref|XM_006717498.2| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X1, mRNA
+>gi|1034569384|ref|XM_017016597.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X3, mRNA
+>gi|1021312353|ref|NM_001323658.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 25, mRNA
+>gi|1021312419|ref|NM_001323657.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 24, mRNA
+>gi|1021311934|ref|NM_001323656.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 23, mRNA
+>gi|1021311752|ref|NM_001323661.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 28, mRNA
+>gi|1021311832|ref|NM_001323659.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 26, mRNA
+>gi|1021312083|ref|NM_001323660.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 27, mRNA
+>gi|1021311718|ref|NM_001323663.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 30, mRNA
+>gi|1021311936|ref|NM_001323662.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 29, mRNA
+>gi|1021312125|ref|NM_001323664.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 31, mRNA
+>gi|1021312251|ref|NM_001323665.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 32, mRNA
+>gi|1021311746|ref|NM_001323666.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 33, mRNA
+>gi|291575183|ref|NM_001128128.2| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 1, mRNA
+>gi|291575187|ref|NM_001174094.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 7, mRNA
+>gi|1021312365|ref|NM_001323678.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 41, mRNA
+>gi|1034569383|ref|XM_011519643.2| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X2, mRNA
+>gi|1021312387|ref|NM_001323672.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 35, mRNA
+>gi|1021312141|ref|NM_001323671.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 34, mRNA
+>gi|1021311908|ref|NM_001323673.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 36, mRNA
+>gi|1021311942|ref|NM_001323676.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 39, mRNA
+>gi|1021312273|ref|NM_001323677.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 40, mRNA
+>gi|1021312334|ref|NM_001323675.1| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 38, mRNA
+>gi|1034569390|ref|XM_017016600.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X6, mRNA
+>gi|1034569394|ref|XM_017016602.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X8, mRNA
+>gi|1034569386|ref|XM_017016598.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X4, mRNA
+>gi|1034569392|ref|XM_017016601.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X7, mRNA
+>gi|1034569396|ref|XM_017016603.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X9, mRNA
+>gi|1034569388|ref|XM_017016599.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant X5, mRNA
+>gi|284413745|ref|NM_001171653.1| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 2, mRNA
+>gi|284413744|ref|NM_014795.3| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 1, mRNA
+>gi|1034618114|ref|XM_011512232.2| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X5, mRNA
+>gi|1034618108|ref|XM_006712882.3| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X1, mRNA
+>gi|1034618109|ref|XM_006712881.3| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X2, mRNA
+>gi|1034618112|ref|XM_017005415.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X4, mRNA
+>gi|1034618110|ref|XM_017005414.1| PREDICTED: Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant X3, mRNA
+>gi|284413747|ref|NR_033258.1| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 3, non-coding RNA
+>gi|209969754|ref|NM_001136178.1| Homo sapiens early growth response 2 (EGR2), transcript variant 3, mRNA
+>gi|767961941|ref|XM_011539427.1| PREDICTED: Homo sapiens early growth response 2 (EGR2), transcript variant X1, mRNA
+>gi|1005261236|ref|NM_001321037.1| Homo sapiens early growth response 2 (EGR2), transcript variant 5, mRNA
+>gi|1005261233|ref|NM_001136177.2| Homo sapiens early growth response 2 (EGR2), transcript variant 2, mRNA
+>gi|1005261234|ref|NM_001136179.2| Homo sapiens early growth response 2 (EGR2), transcript variant 4, mRNA
+>gi|1005261235|ref|NM_000399.4| Homo sapiens early growth response 2 (EGR2), transcript variant 1, mRNA
+>gi|77628152|ref|NM_053056.2| Homo sapiens cyclin D1 (CCND1), mRNA
+>gi|73622122|ref|NM_032991.2| Homo sapiens caspase 3, apoptosis-related cysteine peptidase (CASP3), transcript variant beta, mRNA
+>gi|73622121|ref|NM_004346.3| Homo sapiens caspase 3, apoptosis-related cysteine peptidase (CASP3), transcript variant alpha, mRNA
+>gi|767932778|ref|XM_011532301.1| PREDICTED: Homo sapiens caspase 3 (CASP3), transcript variant X1, mRNA
+>gi|306482598|ref|NM_178153.2| Homo sapiens doublecortin (DCX), transcript variant 3, mRNA
+>gi|306482597|ref|NM_178152.2| Homo sapiens doublecortin (DCX), transcript variant 2, mRNA
+>gi|307078114|ref|NM_001195553.1| Homo sapiens doublecortin (DCX), transcript variant 5, mRNA
+>gi|306482596|ref|NM_178151.2| Homo sapiens doublecortin (DCX), transcript variant 4, mRNA
+>gi|306482599|ref|NM_000555.3| Homo sapiens doublecortin (DCX), transcript variant 1, mRNA
+>gi|1034673665|ref|XM_011530880.2| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X4, mRNA
+>gi|1034673663|ref|XM_011530878.2| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X2, mRNA
+>gi|1034673664|ref|XM_011530879.2| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X3, mRNA
+>gi|1034673661|ref|XM_017029312.1| PREDICTED: Homo sapiens doublecortin (DCX), transcript variant X1, mRNA
+>gi|61676924|ref|NM_012242.2| Homo sapiens dickkopf WNT signaling pathway inhibitor 1 (DKK1), mRNA
+>gi|41327737|ref|NM_005228.3| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 1, mRNA
+>gi|41327735|ref|NM_201284.1| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 4, mRNA
+>gi|41327731|ref|NM_201282.1| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 2, mRNA
+>gi|41327733|ref|NM_201283.1| Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 3, mRNA
+>gi|87578393|ref|NM_001039538.1| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 5, mRNA
+>gi|767918158|ref|XM_011511186.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X2, mRNA
+>gi|1034614015|ref|XM_017004118.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X20, mRNA
+>gi|1034614021|ref|XM_017004121.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X23, mRNA
+>gi|1034614027|ref|XM_017004124.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X26, mRNA
+>gi|1034614055|ref|XM_017004138.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X42, mRNA
+>gi|1034614059|ref|XM_017004140.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X44, mRNA
+>gi|1034614023|ref|XM_017004122.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X24, mRNA
+>gi|1034614005|ref|XM_017004113.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X15, mRNA
+>gi|530370352|ref|XM_005246555.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X1, mRNA
+>gi|1034614001|ref|XM_017004112.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X11, mRNA
+>gi|1034614007|ref|XM_017004114.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X16, mRNA
+>gi|1034614017|ref|XM_017004119.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X21, mRNA
+>gi|1034614003|ref|XM_011511196.2| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X13, mRNA
+>gi|1034614025|ref|XM_017004123.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X25, mRNA
+>gi|1034614031|ref|XM_017004126.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X28, mRNA
+>gi|1034614029|ref|XM_017004125.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X27, mRNA
+>gi|578804344|ref|XM_006712532.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X5, mRNA
+>gi|1034614019|ref|XM_017004120.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X22, mRNA
+>gi|1034614004|ref|XM_011511197.2| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X14, mRNA
+>gi|1034614033|ref|XM_017004127.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X29, mRNA
+>gi|87578395|ref|NM_002374.3| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 1, mRNA
+>gi|87578254|ref|NM_031847.2| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 4, mRNA
+>gi|87578391|ref|NM_031845.2| Homo sapiens microtubule associated protein 2 (MAP2), transcript variant 2, mRNA
+>gi|767918166|ref|XM_011511190.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X6, mRNA
+>gi|767918170|ref|XM_011511192.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X8, mRNA
+>gi|767918162|ref|XM_011511188.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X3, mRNA
+>gi|767918172|ref|XM_011511193.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X10, mRNA
+>gi|767918160|ref|XM_011511187.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X4, mRNA
+>gi|1034613999|ref|XM_017004111.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X9, mRNA
+>gi|767918168|ref|XM_011511191.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X7, mRNA
+>gi|1034614009|ref|XM_017004115.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X17, mRNA
+>gi|1034614011|ref|XM_017004116.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X18, mRNA
+>gi|767918176|ref|XM_011511195.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X12, mRNA
+>gi|1034614013|ref|XM_017004117.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X19, mRNA
+>gi|1034614035|ref|XM_017004128.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X30, mRNA
+>gi|1034614037|ref|XM_017004129.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X31, mRNA
+>gi|1034614057|ref|XM_017004139.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X43, mRNA
+>gi|1034614039|ref|XM_017004130.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X34, mRNA
+>gi|1034614049|ref|XM_017004135.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X39, mRNA
+>gi|530370372|ref|XM_005246565.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X32, mRNA
+>gi|1034614041|ref|XM_017004131.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X35, mRNA
+>gi|1034614045|ref|XM_017004133.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X37, mRNA
+>gi|1034614051|ref|XM_017004136.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X40, mRNA
+>gi|530370374|ref|XM_005246566.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X33, mRNA
+>gi|1034614043|ref|XM_017004132.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X36, mRNA
+>gi|1034614047|ref|XM_017004134.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X38, mRNA
+>gi|1034614053|ref|XM_017004137.1| PREDICTED: Homo sapiens microtubule associated protein 2 (MAP2), transcript variant X41, mRNA
+>gi|732170678|ref|NR_003491.3| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 1, long non-coding RNA
+>gi|732170679|ref|NR_033319.2| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 2, long non-coding RNA
+>gi|732170680|ref|NR_033320.2| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 3, long non-coding RNA
+>gi|732170681|ref|NR_033321.2| Homo sapiens myocardial infarction associated transcript (non-protein coding) (MIAT), transcript variant 4, long non-coding RNA
+>gi|225543214|ref|NM_001145966.1| Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant 2, mRNA
+>gi|225543213|ref|NM_002417.4| Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant 1, mRNA
+>gi|1034568322|ref|XM_011539818.2| PREDICTED: Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant X1, mRNA
+>gi|1034568323|ref|XM_006717864.3| PREDICTED: Homo sapiens marker of proliferation Ki-67 (MKI67), transcript variant X2, mRNA
+>gi|38176299|ref|NM_006617.1| Homo sapiens nestin (NES), mRNA
+>gi|975830165|ref|NM_017617.4| Homo sapiens notch 1 (NOTCH1), mRNA
+>gi|1034665363|ref|XM_011518717.2| PREDICTED: Homo sapiens notch 1 (NOTCH1), transcript variant X1, mRNA
+>gi|1034665388|ref|XM_011518718.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X5, mRNA
+>gi|1034665385|ref|XM_017014751.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X3, mRNA
+>gi|1034665391|ref|XM_017014753.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X7, mRNA
+>gi|1034665383|ref|XM_005252001.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X1, mRNA
+>gi|1034665395|ref|XM_005252006.3| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X9, mRNA
+>gi|1034665400|ref|XM_011518720.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X12, mRNA
+>gi|1034665408|ref|XM_017014760.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X17, mRNA
+>gi|1034665403|ref|XM_005252007.3| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X14, mRNA
+>gi|633257773|ref|NM_006180.4| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant a, mRNA
+>gi|633257776|ref|NM_001291937.1| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant f, mRNA
+>gi|1034665384|ref|XM_005252003.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X2, mRNA
+>gi|1034665398|ref|XM_017014756.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X11, mRNA
+>gi|1034665406|ref|XM_017014759.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X16, mRNA
+>gi|1034665389|ref|XM_017014752.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X6, mRNA
+>gi|1034665396|ref|XM_017014755.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X10, mRNA
+>gi|1034665401|ref|XM_017014757.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X13, mRNA
+>gi|1034665404|ref|XM_017014758.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X15, mRNA
+>gi|1034665387|ref|XM_005252004.2| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X4, mRNA
+>gi|1034665393|ref|XM_017014754.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X8, mRNA
+>gi|1034665410|ref|XM_017014761.1| PREDICTED: Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant X18, mRNA
+>gi|206597532|ref|NM_001018065.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant d, mRNA
+>gi|206597545|ref|NM_001018066.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant e, mRNA
+>gi|633257774|ref|NM_001007097.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant b, mRNA
+>gi|633257775|ref|NM_001018064.2| Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant c, mRNA
+>gi|601984519|ref|NM_021009.6| Homo sapiens ubiquitin C (UBC), mRNA
+>gi|1034556766|ref|XM_006710473.2| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X4, mRNA
+>gi|1034556763|ref|XM_006710474.3| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X1, mRNA
+>gi|1034556767|ref|XM_017000716.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X5, mRNA
+>gi|1034556764|ref|XM_005245786.2| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X2, mRNA
+>gi|1034556765|ref|XM_006710472.3| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X3, mRNA
+>gi|1034556769|ref|XM_017000717.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X6, mRNA
+>gi|226437585|ref|NM_001009999.2| Homo sapiens lysine (K)-specific demethylase 1A (KDM1A), transcript variant 1, mRNA
+>gi|226437582|ref|NM_015013.3| Homo sapiens lysine (K)-specific demethylase 1A (KDM1A), transcript variant 2, mRNA
+>gi|1034556775|ref|XM_017000720.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X9, mRNA
+>gi|1034556773|ref|XM_017000719.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X8, mRNA
+>gi|1034556771|ref|XM_017000718.1| PREDICTED: Homo sapiens lysine demethylase 1A (KDM1A), transcript variant X7, mRNA
+>gi|269847039|ref|NM_173587.3| Homo sapiens REST corepressor 2 (RCOR2), mRNA
+>gi|1034573213|ref|XM_005273932.3| PREDICTED: Homo sapiens REST corepressor 2 (RCOR2), transcript variant X1, mRNA
+>gi|223718133|ref|NM_001145306.1| Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant 2, mRNA
+>gi|223718130|ref|NM_001259.6| Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant 1, mRNA
+>gi|1034653842|ref|XM_006715835.2| PREDICTED: Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant X1, mRNA
+>gi|315113858|ref|NM_006243.3| Homo sapiens protein phosphatase 2 regulatory subunit B', alpha (PPP2R5A), transcript variant 1, mRNA
+>gi|315113859|ref|NM_001199756.1| Homo sapiens protein phosphatase 2 regulatory subunit B', alpha (PPP2R5A), transcript variant 2, mRNA
+>gi|783137733|ref|NM_000314.6| Homo sapiens phosphatase and tensin homolog (PTEN), transcript variant 1, mRNA
+>gi|799322615|ref|NM_001304717.2| Homo sapiens phosphatase and tensin homolog (PTEN), transcript variant 1, mRNA
+>gi|754502063|ref|NM_001304718.1| Homo sapiens phosphatase and tensin homolog (PTEN), transcript variant 2, mRNA
+>gi|55956787|ref|NM_005381.2| Homo sapiens nucleolin (NCL), mRNA
