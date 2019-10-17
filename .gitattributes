@@ -1,2 +1,3 @@
 *.html linguist-vendored=true
 *.pep  linguist-vendored=true
+*coffee linguist-vendored=true
